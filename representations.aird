@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis uid="_XTeXEEhvEfGtaomPpWtPEg" selectedViews="_DbqpsEhwEfGtaomPpWtPEg _Db2P4EhwEfGtaomPpWtPEg" version="15.2.0.202303281325">
-    <semanticResources>sple-proyek.uml</semanticResources>
+  <viewpoint:DAnalysis uid="_VbIqkEBaEfG_EbYrkoLnzw" selectedViews="_l2tsMEBaEfG_EbYrkoLnzw _l3BOMEBaEfG_EbYrkoLnzw" version="15.2.0.202303281325">
+    <semanticResources>TAW2RAMY.uml</semanticResources>
     <semanticResources>pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml</semanticResources>
     <semanticResources>pathmap://UML_PROFILES/Ecore.profile.uml</semanticResources>
     <semanticResources>pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml</semanticResources>
@@ -9,426 +9,1222 @@
     <semanticResources>pathmap://UML_METAMODELS/UML.metamodel.uml</semanticResources>
     <semanticResources>pathmap://UML_METAMODELS/Ecore.metamodel.uml</semanticResources>
     <semanticResources>pathmap://model/uml-vm-profile/uml-vm-profile.profile.uml</semanticResources>
-    <semanticResources>project.core</semanticResources>
-    <semanticResources>main.core</semanticResources>
-    <ownedViews xmi:type="viewpoint:DView" uid="_DbqpsEhwEfGtaomPpWtPEg">
+    <semanticResources>My.core</semanticResources>
+    <semanticResources>My1.core</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_l2tsMEBaEfG_EbYrkoLnzw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_5uLbQEhwEfGtaomPpWtPEg" name="project" repPath="#_5t6VgEhwEfGtaomPpWtPEg" changeId="1777983700134">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_npTrMEBaEfG_EbYrkoLnzw" name="FETA" repPath="#_npR2AEBaEfG_EbYrkoLnzw" changeId="1777103529557">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
-        <target xmi:type="core:IFMLModel" href="project.core#/"/>
+        <target xmi:type="core:IFMLModel" href="My.core#/"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_M75tAEh0EfGtaomPpWtPEg" name="main" repPath="#_M74e4Eh0EfGtaomPpWtPEg" changeId="1777983627415">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_RVB1MEB4EfG_EbYrkoLnzw" name="Home" repPath="#_RU_Y8EB4EfG_EbYrkoLnzw" changeId="1777117333926">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
-        <target xmi:type="core:IFMLModel" href="main.core#/"/>
+        <target xmi:type="core:IFMLModel" href="My1.core#/"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
-    <ownedViews xmi:type="viewpoint:DView" uid="_Db2P4EhwEfGtaomPpWtPEg">
+    <ownedViews xmi:type="viewpoint:DView" uid="_l3BOMEBaEfG_EbYrkoLnzw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/id.ac.ui.cs.prices.ifmldop.editor.design/description/dop_extension.odesign#//@ownedViewpoints[name='IFML_DOP_Extension']"/>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <diagram:DSemanticDiagram uid="_5t6VgEhwEfGtaomPpWtPEg">
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_5uUlMEhwEfGtaomPpWtPEg" source="GMF_DIAGRAMS">
-      <data xmi:type="notation:Diagram" xmi:id="_5uUlMUhwEfGtaomPpWtPEg" type="Sirius" element="_5t6VgEhwEfGtaomPpWtPEg" measurementUnit="Pixel">
-        <children xmi:type="notation:Node" xmi:id="_Ar8CIEhyEfGtaomPpWtPEg" type="2002" element="_AqURgEhyEfGtaomPpWtPEg">
-          <children xmi:type="notation:Node" xmi:id="_Ar-eYEhyEfGtaomPpWtPEg" type="5006"/>
-          <children xmi:type="notation:Node" xmi:id="_Ar_FcEhyEfGtaomPpWtPEg" type="7001">
-            <children xmi:type="notation:Node" xmi:id="_JQ2pgEhyEfGtaomPpWtPEg" type="3008" element="_JPZ4AEhyEfGtaomPpWtPEg">
-              <children xmi:type="notation:Node" xmi:id="_JQ2pg0hyEfGtaomPpWtPEg" type="5005"/>
-              <children xmi:type="notation:Node" xmi:id="_JQ3QkEhyEfGtaomPpWtPEg" type="7002">
-                <children xmi:type="notation:Node" xmi:id="_P_j9MEhyEfGtaomPpWtPEg" type="3008" element="_P9-BwEhyEfGtaomPpWtPEg">
-                  <children xmi:type="notation:Node" xmi:id="_P_j9M0hyEfGtaomPpWtPEg" type="5005"/>
-                  <children xmi:type="notation:Node" xmi:id="_P_j9NEhyEfGtaomPpWtPEg" type="7002">
-                    <children xmi:type="notation:Node" xmi:id="_cRfo4EhyEfGtaomPpWtPEg" type="3008" element="_cQDecEhyEfGtaomPpWtPEg">
-                      <children xmi:type="notation:Node" xmi:id="_cRfo40hyEfGtaomPpWtPEg" type="5005"/>
-                      <children xmi:type="notation:Node" xmi:id="_cRfo5EhyEfGtaomPpWtPEg" type="7002">
-                        <children xmi:type="notation:Node" xmi:id="_zMiBQEhyEfGtaomPpWtPEg" type="3008" element="_zK4bcEhyEfGtaomPpWtPEg">
-                          <children xmi:type="notation:Node" xmi:id="_zMiBQ0hyEfGtaomPpWtPEg" type="5005"/>
-                          <children xmi:type="notation:Node" xmi:id="_zMiBREhyEfGtaomPpWtPEg" type="7002">
-                            <styles xmi:type="notation:SortingStyle" xmi:id="_zMiBRUhyEfGtaomPpWtPEg"/>
-                            <styles xmi:type="notation:FilteringStyle" xmi:id="_zMiBRkhyEfGtaomPpWtPEg"/>
-                          </children>
-                          <styles xmi:type="notation:ShapeStyle" xmi:id="_zMiBQUhyEfGtaomPpWtPEg" fontName="Segoe UI"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zMiBQkhyEfGtaomPpWtPEg" x="37" y="36" width="444" height="40"/>
-                        </children>
-                        <children xmi:type="notation:Node" xmi:id="_HLhfREhzEfGtaomPpWtPEg" type="3008" element="_HKiAwEhzEfGtaomPpWtPEg">
-                          <children xmi:type="notation:Node" xmi:id="_HLiGUEhzEfGtaomPpWtPEg" type="5005"/>
-                          <children xmi:type="notation:Node" xmi:id="_HLiGUUhzEfGtaomPpWtPEg" type="7002">
-                            <styles xmi:type="notation:SortingStyle" xmi:id="_HLiGUkhzEfGtaomPpWtPEg"/>
-                            <styles xmi:type="notation:FilteringStyle" xmi:id="_HLiGU0hzEfGtaomPpWtPEg"/>
-                          </children>
-                          <styles xmi:type="notation:ShapeStyle" xmi:id="_HLhfRUhzEfGtaomPpWtPEg" fontName="Segoe UI"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HLhfRkhzEfGtaomPpWtPEg" x="37" y="106" width="444" height="40"/>
-                        </children>
-                        <styles xmi:type="notation:SortingStyle" xmi:id="_cRfo5UhyEfGtaomPpWtPEg"/>
-                        <styles xmi:type="notation:FilteringStyle" xmi:id="_cRfo5khyEfGtaomPpWtPEg"/>
+  <diagram:DSemanticDiagram uid="_npR2AEBaEfG_EbYrkoLnzw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_npUSQEBaEfG_EbYrkoLnzw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_npUSQUBaEfG_EbYrkoLnzw" type="Sirius" element="_npR2AEBaEfG_EbYrkoLnzw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_pfGvMEBaEfG_EbYrkoLnzw" type="2002" element="_pdJAUEBaEfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_pfHWQEBaEfG_EbYrkoLnzw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_pfHWQUBaEfG_EbYrkoLnzw" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_qeE44EBaEfG_EbYrkoLnzw" type="3008" element="_qbzA8EBaEfG_EbYrkoLnzw">
+              <children xmi:type="notation:Node" xmi:id="_qeFf8EBaEfG_EbYrkoLnzw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_qeFf8UBaEfG_EbYrkoLnzw" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_x24ScEBaEfG_EbYrkoLnzw" type="3008" element="_x0XxAEBaEfG_EbYrkoLnzw">
+                  <children xmi:type="notation:Node" xmi:id="_x24Sc0BaEfG_EbYrkoLnzw" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_x245gEBaEfG_EbYrkoLnzw" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_zd1pMEBaEfG_EbYrkoLnzw" type="3008" element="_zbITcEBaEfG_EbYrkoLnzw">
+                      <children xmi:type="notation:Node" xmi:id="_zd1pM0BaEfG_EbYrkoLnzw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_zd2QQEBaEfG_EbYrkoLnzw" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_zd2QQUBaEfG_EbYrkoLnzw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_zd2QQkBaEfG_EbYrkoLnzw"/>
                       </children>
-                      <styles xmi:type="notation:ShapeStyle" xmi:id="_cRfo4UhyEfGtaomPpWtPEg" fontName="Segoe UI" fontHeight="8"/>
-                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRfo4khyEfGtaomPpWtPEg" x="30" y="9" width="528" height="185"/>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_zd1pMUBaEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zd1pMkBaEfG_EbYrkoLnzw" x="190" y="-208" width="200" height="40"/>
                     </children>
-                    <styles xmi:type="notation:SortingStyle" xmi:id="_P_j9NUhyEfGtaomPpWtPEg"/>
-                    <styles xmi:type="notation:FilteringStyle" xmi:id="_P_j9NkhyEfGtaomPpWtPEg"/>
+                    <children xmi:type="notation:Node" xmi:id="_6yPD4EBaEfG_EbYrkoLnzw" type="3008" element="_6wJZMEBaEfG_EbYrkoLnzw">
+                      <children xmi:type="notation:Node" xmi:id="_6yPq8EBaEfG_EbYrkoLnzw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_6yPq8UBaEfG_EbYrkoLnzw" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_6yPq8kBaEfG_EbYrkoLnzw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_6yPq80BaEfG_EbYrkoLnzw"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_6yPD4UBaEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6yPD4kBaEfG_EbYrkoLnzw" x="190" y="-171" width="200" height="40"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_-IuekEBaEfG_EbYrkoLnzw" type="3008" element="_-F3-4EBaEfG_EbYrkoLnzw">
+                      <children xmi:type="notation:Node" xmi:id="_-Iuek0BaEfG_EbYrkoLnzw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_-IuelEBaEfG_EbYrkoLnzw" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_blAWYEBbEfG_EbYrkoLnzw" type="3008" element="_biRygEBbEfG_EbYrkoLnzw">
+                          <children xmi:type="notation:Node" xmi:id="_blA9cEBbEfG_EbYrkoLnzw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_blA9cUBbEfG_EbYrkoLnzw" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_blA9ckBbEfG_EbYrkoLnzw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_blA9c0BbEfG_EbYrkoLnzw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_blAWYUBbEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_blAWYkBbEfG_EbYrkoLnzw" x="25" y="55" width="200" height="40"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_e38GwEBbEfG_EbYrkoLnzw" type="3008" element="_e1--8EBbEfG_EbYrkoLnzw">
+                          <children xmi:type="notation:Node" xmi:id="_e38t0EBbEfG_EbYrkoLnzw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_e38t0UBbEfG_EbYrkoLnzw" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_e38t0kBbEfG_EbYrkoLnzw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_e38t00BbEfG_EbYrkoLnzw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_e38GwUBbEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e38GwkBbEfG_EbYrkoLnzw" x="25" y="92" width="200" height="40"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_hrOGsEBbEfG_EbYrkoLnzw" type="3008" element="_hpPwwEBbEfG_EbYrkoLnzw">
+                          <children xmi:type="notation:Node" xmi:id="_hrOtwEBbEfG_EbYrkoLnzw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_hrOtwUBbEfG_EbYrkoLnzw" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_hrOtwkBbEfG_EbYrkoLnzw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_hrOtw0BbEfG_EbYrkoLnzw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_hrOGsUBbEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hrOGskBbEfG_EbYrkoLnzw" x="25" y="129" width="200" height="40"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_id3AYEBiEfG_EbYrkoLnzw" type="3008" element="_iYibgEBiEfG_EbYrkoLnzw">
+                          <children xmi:type="notation:Node" xmi:id="_id3AY0BiEfG_EbYrkoLnzw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_id3AZEBiEfG_EbYrkoLnzw" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_id3AZUBiEfG_EbYrkoLnzw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_id3AZkBiEfG_EbYrkoLnzw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_id3AYUBiEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_id3AYkBiEfG_EbYrkoLnzw" x="25" y="28" width="200" height="30"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_-IuelUBaEfG_EbYrkoLnzw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_-IuelkBaEfG_EbYrkoLnzw"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_-IuekUBaEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-IuekkBaEfG_EbYrkoLnzw" x="70" y="-6" width="277" height="183"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_x245gUBaEfG_EbYrkoLnzw"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_x245gkBaEfG_EbYrkoLnzw"/>
                   </children>
-                  <styles xmi:type="notation:ShapeStyle" xmi:id="_P_j9MUhyEfGtaomPpWtPEg" fontName="Segoe UI"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P_j9MkhyEfGtaomPpWtPEg" x="30" y="20" width="591" height="262"/>
+                  <children xmi:type="notation:Node" xmi:id="_vVEjYEBiEfG_EbYrkoLnzw" type="3012" element="_vRJFoEBiEfG_EbYrkoLnzw">
+                    <children xmi:type="notation:Node" xmi:id="_vVEjY0BiEfG_EbYrkoLnzw" type="5010">
+                      <layoutConstraint xmi:type="notation:Location" xmi:id="_vVEjZEBiEfG_EbYrkoLnzw" x="27" y="5"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_vVFKcEBiEfG_EbYrkoLnzw" type="3005" element="_vRLh4EBiEfG_EbYrkoLnzw">
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_vVFKcUBiEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vVFKckBiEfG_EbYrkoLnzw"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_vVEjYUBiEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vVEjYkBiEfG_EbYrkoLnzw" x="382" y="83" width="26" height="25"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_x24ScUBaEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x24SckBaEfG_EbYrkoLnzw" x="10" y="5" width="392" height="228"/>
                 </children>
-                <styles xmi:type="notation:SortingStyle" xmi:id="_JQ3QkUhyEfGtaomPpWtPEg"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_JQ3QkkhyEfGtaomPpWtPEg"/>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_qeFf8kBaEfG_EbYrkoLnzw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_qeFf80BaEfG_EbYrkoLnzw"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_JQ2pgUhyEfGtaomPpWtPEg" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JQ2pgkhyEfGtaomPpWtPEg" x="37" y="43" width="716" height="395"/>
+              <children xmi:type="notation:Node" xmi:id="_7VrAwEBdEfG_EbYrkoLnzw" type="3012" element="_7R6iIEBdEfG_EbYrkoLnzw">
+                <children xmi:type="notation:Node" xmi:id="_7Vrn0EBdEfG_EbYrkoLnzw" type="5010">
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_7Vrn0UBdEfG_EbYrkoLnzw" x="-31" y="26"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_7V31EEBdEfG_EbYrkoLnzw" type="3005" element="_7SH9gEBdEfG_EbYrkoLnzw">
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_7V31EUBdEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7V31EkBdEfG_EbYrkoLnzw"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_7VrAwUBdEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7VrAwkBdEfG_EbYrkoLnzw" x="442" y="10" width="26" height="25"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qeE44UBaEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qeE44kBaEfG_EbYrkoLnzw" x="60" y="59" width="452" height="293"/>
             </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_Ar_FcUhyEfGtaomPpWtPEg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_Ar_FckhyEfGtaomPpWtPEg"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_AKgBpkh1EfGtaomPpWtPEg" type="3012" element="_AIIDEEh1EfGtaomPpWtPEg">
-            <children xmi:type="notation:Node" xmi:id="_AKgBqUh1EfGtaomPpWtPEg" type="5010">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_AKgBqkh1EfGtaomPpWtPEg" x="-1"/>
+            <children xmi:type="notation:Node" xmi:id="_9NE5MEBbEfG_EbYrkoLnzw" type="3008" element="_9Kp3UEBbEfG_EbYrkoLnzw">
+              <children xmi:type="notation:Node" xmi:id="_9NFgQEBbEfG_EbYrkoLnzw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_9NFgQUBbEfG_EbYrkoLnzw" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_FwfEsEBcEfG_EbYrkoLnzw" type="3008" element="_FtgCIEBcEfG_EbYrkoLnzw">
+                  <children xmi:type="notation:Node" xmi:id="_FwfEs0BcEfG_EbYrkoLnzw" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_FwfEtEBcEfG_EbYrkoLnzw" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_b2TFQEBcEfG_EbYrkoLnzw" type="3008" element="_bzJqoEBcEfG_EbYrkoLnzw">
+                      <children xmi:type="notation:Node" xmi:id="_b2TsUEBcEfG_EbYrkoLnzw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_b2TsUUBcEfG_EbYrkoLnzw" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_vUmbkEBdEfG_EbYrkoLnzw" type="3008" element="_vT-whEBdEfG_EbYrkoLnzw">
+                          <children xmi:type="notation:Node" xmi:id="_vUmbk0BdEfG_EbYrkoLnzw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_vUmblEBdEfG_EbYrkoLnzw" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_vUmblUBdEfG_EbYrkoLnzw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_vUmblkBdEfG_EbYrkoLnzw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_vUmbkUBdEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vUmbkkBdEfG_EbYrkoLnzw" x="908" y="284" width="200" height="30"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_wQeN8EBdEfG_EbYrkoLnzw" type="3008" element="_wOa_gEBdEfG_EbYrkoLnzw">
+                          <children xmi:type="notation:Node" xmi:id="_wQeN80BdEfG_EbYrkoLnzw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_wQeN9EBdEfG_EbYrkoLnzw" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_wQeN9UBdEfG_EbYrkoLnzw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_wQeN9kBdEfG_EbYrkoLnzw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_wQeN8UBdEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wQeN8kBdEfG_EbYrkoLnzw" x="50" y="19" width="200" height="30"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_b2TsUkBcEfG_EbYrkoLnzw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_b2TsU0BcEfG_EbYrkoLnzw"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_b2TFQUBcEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b2TFQkBcEfG_EbYrkoLnzw" x="10" y="4" width="298" height="83"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_9dA9MEBcEfG_EbYrkoLnzw" type="3008" element="_9ayvoEBcEfG_EbYrkoLnzw">
+                      <children xmi:type="notation:Node" xmi:id="_9dA9M0BcEfG_EbYrkoLnzw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_9dBkQEBcEfG_EbYrkoLnzw" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_FH3JAEBdEfG_EbYrkoLnzw" type="3008" element="_FEfr8EBdEfG_EbYrkoLnzw">
+                          <children xmi:type="notation:Node" xmi:id="_FH3JA0BdEfG_EbYrkoLnzw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_FH3JBEBdEfG_EbYrkoLnzw" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_FH3JBUBdEfG_EbYrkoLnzw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_FH3JBkBdEfG_EbYrkoLnzw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_FH3JAUBdEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FH3JAkBdEfG_EbYrkoLnzw" x="45" y="19" width="200" height="30"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_9dBkQUBcEfG_EbYrkoLnzw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_9dBkQkBcEfG_EbYrkoLnzw"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_9dA9MUBcEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9dA9MkBcEfG_EbYrkoLnzw" x="10" y="119" width="298" height="68"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_FwfEtUBcEfG_EbYrkoLnzw"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_FwfEtkBcEfG_EbYrkoLnzw"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_mixkIEBeEfG_EbYrkoLnzw" type="3012" element="_mfLdkEBeEfG_EbYrkoLnzw">
+                    <children xmi:type="notation:Node" xmi:id="_miyLMEBeEfG_EbYrkoLnzw" type="5010">
+                      <layoutConstraint xmi:type="notation:Location" xmi:id="_miyLMUBeEfG_EbYrkoLnzw" x="27" y="5"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_mjA0sEBeEfG_EbYrkoLnzw" type="3005" element="_mfN50EBeEfG_EbYrkoLnzw">
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_mjA0sUBeEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mjA0skBeEfG_EbYrkoLnzw"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_mixkIUBeEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mixkIkBeEfG_EbYrkoLnzw" x="124" y="222" width="26" height="26"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_FwfEsUBcEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FwfEskBcEfG_EbYrkoLnzw" x="15" y="7" width="333" height="232"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_9NFgQkBbEfG_EbYrkoLnzw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_9NFgQ0BbEfG_EbYrkoLnzw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_9NE5MUBbEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9NE5MkBbEfG_EbYrkoLnzw" x="635" y="57" width="382" height="290"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_AKgosEh1EfGtaomPpWtPEg" type="3003" element="_AIJ4QEh1EfGtaomPpWtPEg">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_AKgosUh1EfGtaomPpWtPEg" fontName="Segoe UI"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AKgoskh1EfGtaomPpWtPEg"/>
+            <children xmi:type="notation:Node" xmi:id="_rN0W8EBeEfG_EbYrkoLnzw" type="3008" element="_rJ6HUEBeEfG_EbYrkoLnzw">
+              <children xmi:type="notation:Node" xmi:id="_rN0-AEBeEfG_EbYrkoLnzw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_rN0-AUBeEfG_EbYrkoLnzw" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_rN0-AkBeEfG_EbYrkoLnzw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_rN0-A0BeEfG_EbYrkoLnzw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_rN0W8UBeEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rN0W8kBeEfG_EbYrkoLnzw" x="529" y="364"/>
             </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_AKgBp0h1EfGtaomPpWtPEg" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AKgBqEh1EfGtaomPpWtPEg" x="-22" y="35" width="30" height="30"/>
+            <children xmi:type="notation:Node" xmi:id="_PN56AEBfEfG_EbYrkoLnzw" type="3008" element="_PKmHUEBfEfG_EbYrkoLnzw">
+              <children xmi:type="notation:Node" xmi:id="_PN6hEEBfEfG_EbYrkoLnzw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_PN6hEUBfEfG_EbYrkoLnzw" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_RB61UEBfEfG_EbYrkoLnzw" type="3008" element="_Q-3hUEBfEfG_EbYrkoLnzw">
+                  <children xmi:type="notation:Node" xmi:id="_RB61U0BfEfG_EbYrkoLnzw" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_RB8DcEBfEfG_EbYrkoLnzw" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_WbEEQEBfEfG_EbYrkoLnzw" type="3008" element="_WYGP0EBfEfG_EbYrkoLnzw">
+                      <children xmi:type="notation:Node" xmi:id="_WbEEQ0BfEfG_EbYrkoLnzw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_WbErUEBfEfG_EbYrkoLnzw" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_dI08wEBfEfG_EbYrkoLnzw" type="3008" element="_dF_EIEBfEfG_EbYrkoLnzw">
+                          <children xmi:type="notation:Node" xmi:id="_dI08w0BfEfG_EbYrkoLnzw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_dI08xEBfEfG_EbYrkoLnzw" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_dI08xUBfEfG_EbYrkoLnzw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_dI08xkBfEfG_EbYrkoLnzw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_dI08wUBfEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dI08wkBfEfG_EbYrkoLnzw" x="130" y="19" width="200" height="30"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_WbErUUBfEfG_EbYrkoLnzw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_WbErUkBfEfG_EbYrkoLnzw"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_WbEEQUBfEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WbEEQkBfEfG_EbYrkoLnzw" x="70" y="65" width="483" height="63"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_XNjRIEBfEfG_EbYrkoLnzw" type="3008" element="_XLPkAEBfEfG_EbYrkoLnzw">
+                      <children xmi:type="notation:Node" xmi:id="_XNjRI0BfEfG_EbYrkoLnzw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_XNjRJEBfEfG_EbYrkoLnzw" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_jbzWsEBfEfG_EbYrkoLnzw" type="3008" element="_jZebcUBfEfG_EbYrkoLnzw">
+                          <children xmi:type="notation:Node" xmi:id="_jbz9wEBfEfG_EbYrkoLnzw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_jbz9wUBfEfG_EbYrkoLnzw" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_jbz9wkBfEfG_EbYrkoLnzw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_jbz9w0BfEfG_EbYrkoLnzw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_jbzWsUBfEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbzWskBfEfG_EbYrkoLnzw" x="145" y="19" width="200" height="30"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_XNjRJUBfEfG_EbYrkoLnzw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_XNjRJkBfEfG_EbYrkoLnzw"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_XNjRIUBfEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XNjRIkBfEfG_EbYrkoLnzw" x="70" y="130" width="483" height="63"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_X5AB4EBfEfG_EbYrkoLnzw" type="3008" element="_X2cdIEBfEfG_EbYrkoLnzw">
+                      <children xmi:type="notation:Node" xmi:id="_X5BQAEBfEfG_EbYrkoLnzw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_X5BQAUBfEfG_EbYrkoLnzw" type="7002">
+                        <children xmi:type="notation:Node" xmi:id="_n7t3kEBfEfG_EbYrkoLnzw" type="3008" element="_n5axgEBfEfG_EbYrkoLnzw">
+                          <children xmi:type="notation:Node" xmi:id="_n7ueoEBfEfG_EbYrkoLnzw" type="5005"/>
+                          <children xmi:type="notation:Node" xmi:id="_n7ueoUBfEfG_EbYrkoLnzw" type="7002">
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_n7ueokBfEfG_EbYrkoLnzw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_n7ueo0BfEfG_EbYrkoLnzw"/>
+                          </children>
+                          <styles xmi:type="notation:ShapeStyle" xmi:id="_n7t3kUBfEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n7t3kkBfEfG_EbYrkoLnzw" x="147" y="24" width="200" height="30"/>
+                        </children>
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_X5BQAkBfEfG_EbYrkoLnzw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_X5BQA0BfEfG_EbYrkoLnzw"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_X5AB4UBfEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X5AB4kBfEfG_EbYrkoLnzw" x="68" y="200" width="484" height="68"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_cDgMEEBiEfG_EbYrkoLnzw" type="3008" element="_cAla8EBiEfG_EbYrkoLnzw">
+                      <children xmi:type="notation:Node" xmi:id="_cDgzIEBiEfG_EbYrkoLnzw" type="5005"/>
+                      <children xmi:type="notation:Node" xmi:id="_cDgzIUBiEfG_EbYrkoLnzw" type="7002">
+                        <styles xmi:type="notation:SortingStyle" xmi:id="_cDgzIkBiEfG_EbYrkoLnzw"/>
+                        <styles xmi:type="notation:FilteringStyle" xmi:id="_cDgzI0BiEfG_EbYrkoLnzw"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_cDgMEUBiEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cDgMEkBiEfG_EbYrkoLnzw" x="230" y="19" width="200" height="30"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_RB8DcUBfEfG_EbYrkoLnzw"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_RB8DckBfEfG_EbYrkoLnzw"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_fBTIAEBkEfG_EbYrkoLnzw" type="3012" element="_e-dPYEBkEfG_EbYrkoLnzw">
+                    <children xmi:type="notation:Node" xmi:id="_fBTIA0BkEfG_EbYrkoLnzw" type="5010">
+                      <layoutConstraint xmi:type="notation:Location" xmi:id="_fBTIBEBkEfG_EbYrkoLnzw" x="27" y="5"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_fBTvEEBkEfG_EbYrkoLnzw" type="3005" element="_e-dPYUBkEfG_EbYrkoLnzw">
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_fBTvEUBkEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fBTvEkBkEfG_EbYrkoLnzw"/>
+                    </children>
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_fBTIAUBkEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fBTIAkBkEfG_EbYrkoLnzw" x="309" y="304" width="26" height="26"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_RB61UUBfEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RB61UkBfEfG_EbYrkoLnzw" x="15" y="15" width="658" height="314"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_PN6hEkBfEfG_EbYrkoLnzw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_PN6hE0BfEfG_EbYrkoLnzw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_PN56AUBfEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PN56AkBfEfG_EbYrkoLnzw" x="170" y="529" width="723" height="393"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_UI9FcEBkEfG_EbYrkoLnzw" type="3008" element="_UGJCAEBkEfG_EbYrkoLnzw">
+              <children xmi:type="notation:Node" xmi:id="_UI9sgEBkEfG_EbYrkoLnzw" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_UI9sgUBkEfG_EbYrkoLnzw" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_UI9sgkBkEfG_EbYrkoLnzw"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_UI9sg0BkEfG_EbYrkoLnzw"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_UI9FcUBkEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UI9FckBkEfG_EbYrkoLnzw" x="55" y="404"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_pfHWQkBaEfG_EbYrkoLnzw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_pfHWQ0BaEfG_EbYrkoLnzw"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_Ar8CIUhyEfGtaomPpWtPEg" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ar8CIkhyEfGtaomPpWtPEg" x="133" y="35" width="1108" height="738"/>
+          <children xmi:type="notation:Node" xmi:id="_qiNH8EB7EfG_EbYrkoLnzw" type="3012" element="_qZZKMEB7EfG_EbYrkoLnzw">
+            <children xmi:type="notation:Node" xmi:id="_qiNvAEB7EfG_EbYrkoLnzw" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qiNvAUB7EfG_EbYrkoLnzw" x="-1" y="2"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_qiO9IEB7EfG_EbYrkoLnzw" type="3003" element="_qZZKMUB7EfG_EbYrkoLnzw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_qiO9IUB7EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qiO9IkB7EfG_EbYrkoLnzw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qiNH8UB7EfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qiNH8kB7EfG_EbYrkoLnzw" x="740" y="-22" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_pfGvMUBaEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pfGvMkBaEfG_EbYrkoLnzw" x="95" y="70" width="1723" height="1242"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_Ur2tMEhyEfGtaomPpWtPEg" type="2001" element="_UrCN0EhyEfGtaomPpWtPEg">
-          <children xmi:type="notation:Node" xmi:id="_Ur3UQEhyEfGtaomPpWtPEg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_Ur3UQUhyEfGtaomPpWtPEg" y="5"/>
+        <children xmi:type="notation:Node" xmi:id="_LHC1gEBjEfG_EbYrkoLnzw" type="2003" element="_LFsKoEBjEfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_LHC1g0BjEfG_EbYrkoLnzw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_LHC1hEBjEfG_EbYrkoLnzw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_vk39IEBmEfG_EbYrkoLnzw" type="3010" element="_vgxgQEBmEfG_EbYrkoLnzw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vk39IUBmEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vk39IkBmEfG_EbYrkoLnzw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_LHC1hUBjEfG_EbYrkoLnzw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_LHC1hkBjEfG_EbYrkoLnzw"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Ur4iYEhyEfGtaomPpWtPEg" type="3013" element="_UrEDAEhyEfGtaomPpWtPEg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_Ur4iYUhyEfGtaomPpWtPEg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ur4iYkhyEfGtaomPpWtPEg"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_Ur2tMUhyEfGtaomPpWtPEg" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ur2tMkhyEfGtaomPpWtPEg" x="910" y="-56" width="80" height="80"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_LHC1gUBjEfG_EbYrkoLnzw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LHC1gkBjEfG_EbYrkoLnzw" x="1865" y="655"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_V52feEh0EfGtaomPpWtPEg" type="2001" element="_V4Ou0kh0EfGtaomPpWtPEg">
-          <children xmi:type="notation:Node" xmi:id="_V52fe0h0EfGtaomPpWtPEg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_V52ffEh0EfGtaomPpWtPEg" y="5"/>
+        <children xmi:type="notation:Node" xmi:id="_pLG5iEB4EfG_EbYrkoLnzw" type="2001" element="_pHSJcEB4EfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_pLHgkEB4EfG_EbYrkoLnzw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_pLHgkUB4EfG_EbYrkoLnzw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_V53GgEh0EfGtaomPpWtPEg" type="3013" element="_V4Ou00h0EfGtaomPpWtPEg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_V53GgUh0EfGtaomPpWtPEg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V53Ggkh0EfGtaomPpWtPEg"/>
+          <children xmi:type="notation:Node" xmi:id="_pLHgkkB4EfG_EbYrkoLnzw" type="3013" element="_pHouwEB4EfG_EbYrkoLnzw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_pLHgk0B4EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pLHglEB4EfG_EbYrkoLnzw"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_V52feUh0EfGtaomPpWtPEg" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V52fekh0EfGtaomPpWtPEg" x="175" y="-49" width="80" height="80"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_pLG5iUB4EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pLG5ikB4EfG_EbYrkoLnzw" x="2006" y="410" width="80" height="80"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_8Gn8jEh0EfGtaomPpWtPEg" type="2001" element="_8FEdVEh0EfGtaomPpWtPEg">
-          <children xmi:type="notation:Node" xmi:id="_8Gn8j0h0EfGtaomPpWtPEg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_8Gn8kEh0EfGtaomPpWtPEg" y="5"/>
+        <children xmi:type="notation:Node" xmi:id="_t9IeEEB4EfG_EbYrkoLnzw" type="2001" element="_t6_JAEB4EfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_t9IeE0B4EfG_EbYrkoLnzw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_t9IeFEB4EfG_EbYrkoLnzw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8Gn8kUh0EfGtaomPpWtPEg" type="3013" element="_8FEdVUh0EfGtaomPpWtPEg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8Gn8kkh0EfGtaomPpWtPEg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Gn8k0h0EfGtaomPpWtPEg"/>
+          <children xmi:type="notation:Node" xmi:id="_t9JFIEB4EfG_EbYrkoLnzw" type="3013" element="_t6_JAUB4EfG_EbYrkoLnzw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_t9JFIUB4EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t9JFIkB4EfG_EbYrkoLnzw"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_8Gn8jUh0EfGtaomPpWtPEg" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Gn8jkh0EfGtaomPpWtPEg" x="294" y="-49" width="80" height="80"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_t9IeEUB4EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t9IeEkB4EfG_EbYrkoLnzw" x="2100" y="718" width="80" height="80"/>
         </children>
-        <styles xmi:type="notation:DiagramStyle" xmi:id="_5uUlMkhwEfGtaomPpWtPEg"/>
-        <edges xmi:type="notation:Edge" xmi:id="_Ur5wgEhyEfGtaomPpWtPEg" type="4001" element="_UrybwEhyEfGtaomPpWtPEg" source="_JQ2pgEhyEfGtaomPpWtPEg" target="_Ur2tMEhyEfGtaomPpWtPEg">
-          <children xmi:type="notation:Node" xmi:id="_Ur6-oEhyEfGtaomPpWtPEg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ur6-oUhyEfGtaomPpWtPEg" x="8" y="-13"/>
+        <children xmi:type="notation:Node" xmi:id="_AiHcMEB5EfG_EbYrkoLnzw" type="2001" element="_Afnh0UB5EfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_AiIDQEB5EfG_EbYrkoLnzw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_AiIDQUB5EfG_EbYrkoLnzw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Ur-pAEhyEfGtaomPpWtPEg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ur-pAUhyEfGtaomPpWtPEg" x="-9" y="4"/>
+          <children xmi:type="notation:Node" xmi:id="_AiIqUEB5EfG_EbYrkoLnzw" type="3013" element="_Afnh0kB5EfG_EbYrkoLnzw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AiIqUUB5EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AiIqUkB5EfG_EbYrkoLnzw"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_Ur-pAkhyEfGtaomPpWtPEg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ur-pA0hyEfGtaomPpWtPEg" x="-13" y="6"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_AiHcMUB5EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AiHcMkB5EfG_EbYrkoLnzw" x="2180" y="758" width="80" height="80"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_da-zCEB7EfG_EbYrkoLnzw" type="2001" element="_dUiMxkB7EfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_da_aEEB7EfG_EbYrkoLnzw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_da_aEUB7EfG_EbYrkoLnzw" y="5"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Ur5wgUhyEfGtaomPpWtPEg"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_Ur5wgkhyEfGtaomPpWtPEg" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ur5wg0hyEfGtaomPpWtPEg" points="[283, -171, -167, 100]$[410, -247, -40, 24]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UsAeMEhyEfGtaomPpWtPEg" id="(0.45615671641791045,0.4372881355932204)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UsAeMUhyEfGtaomPpWtPEg" id="(0.5,0.5)"/>
+          <children xmi:type="notation:Node" xmi:id="_dbBPQEB7EfG_EbYrkoLnzw" type="3013" element="_dUiz0EB7EfG_EbYrkoLnzw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_dbBPQUB7EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dbBPQkB7EfG_EbYrkoLnzw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_da-zCUB7EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_da-zCkB7EfG_EbYrkoLnzw" x="1850" y="505" width="80" height="80"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_npUSQkBaEfG_EbYrkoLnzw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_g3mxEEBeEfG_EbYrkoLnzw" type="4001" element="_gz4HoEBeEfG_EbYrkoLnzw" source="_7VrAwEBdEfG_EbYrkoLnzw" target="_9NE5MEBbEfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_g3nYIEBeEfG_EbYrkoLnzw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3nYIUBeEfG_EbYrkoLnzw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_g3nYIkBeEfG_EbYrkoLnzw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3nYI0BeEfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_g3nYJEBeEfG_EbYrkoLnzw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g3nYJUBeEfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_g3mxEUBeEfG_EbYrkoLnzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_g3mxEkBeEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_g3mxE0BeEfG_EbYrkoLnzw" points="[0, 0, -107, 0]$[107, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_g3nYJkBeEfG_EbYrkoLnzw" id="(1.0,0.6)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_g3nYJ0BeEfG_EbYrkoLnzw" id="(0.0,0.09375)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_1mWRAEBeEfG_EbYrkoLnzw" type="4001" element="_1jaRxEBeEfG_EbYrkoLnzw" source="_mixkIEBeEfG_EbYrkoLnzw" target="_rN0W8EBeEfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_1mWRBEBeEfG_EbYrkoLnzw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1mWRBUBeEfG_EbYrkoLnzw" x="-5" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1mWRBkBeEfG_EbYrkoLnzw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1mWRB0BeEfG_EbYrkoLnzw" x="5" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_1mWRCEBeEfG_EbYrkoLnzw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1mWRCUBeEfG_EbYrkoLnzw" x="5" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1mWRAUBeEfG_EbYrkoLnzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_1mWRAkBeEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1mWRA0BeEfG_EbYrkoLnzw" points="[0, 0, 143, -84]$[-143, 84, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1mWRCkBeEfG_EbYrkoLnzw" id="(0.0,0.2692307692307692)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1mWRC0BeEfG_EbYrkoLnzw" id="(1.0,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_24yJQEBeEfG_EbYrkoLnzw" type="4001" element="_21K0mEBeEfG_EbYrkoLnzw" source="_rN0W8EBeEfG_EbYrkoLnzw" target="_qeE44EBaEfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_24yJREBeEfG_EbYrkoLnzw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_24yJRUBeEfG_EbYrkoLnzw" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_24yJRkBeEfG_EbYrkoLnzw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_24yJR0BeEfG_EbYrkoLnzw" x="1" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_24yJSEBeEfG_EbYrkoLnzw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_24yJSUBeEfG_EbYrkoLnzw" x="2" y="11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_24yJQUBeEfG_EbYrkoLnzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_24yJQkBeEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_24yJQ0BeEfG_EbYrkoLnzw" points="[0, 0, 74, 49]$[-74, -49, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_24ywUEBeEfG_EbYrkoLnzw" id="(0.0,0.4069767441860465)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_24ywUUBeEfG_EbYrkoLnzw" id="(0.8777777777777778,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_idhXQEBkEfG_EbYrkoLnzw" type="4001" element="_ibZ3cEBkEfG_EbYrkoLnzw" source="_fBTIAEBkEfG_EbYrkoLnzw" target="_UI9FcEBkEfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_idhXREBkEfG_EbYrkoLnzw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_idhXRUBkEfG_EbYrkoLnzw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_idhXRkBkEfG_EbYrkoLnzw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_idhXR0BkEfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_idhXSEBkEfG_EbYrkoLnzw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_idhXSUBkEfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_idhXQUBkEfG_EbYrkoLnzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_idhXQkBkEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_idhXQ0BkEfG_EbYrkoLnzw" points="[0, 0, 390, 404]$[-390, -404, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_idhXSkBkEfG_EbYrkoLnzw" id="(0.0,0.6153846153846154)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_idhXS0BkEfG_EbYrkoLnzw" id="(0.5046728971962616,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_kg6LUEBkEfG_EbYrkoLnzw" type="4001" element="_ke289EBkEfG_EbYrkoLnzw" source="_UI9FcEBkEfG_EbYrkoLnzw" target="_qeE44EBaEfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_kg6LVEBkEfG_EbYrkoLnzw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kg6LVUBkEfG_EbYrkoLnzw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kg6LVkBkEfG_EbYrkoLnzw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kg6LV0BkEfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kg6yYEBkEfG_EbYrkoLnzw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kg6yYUBkEfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_kg6LUUBkEfG_EbYrkoLnzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_kg6LUkBkEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kg6LU0BkEfG_EbYrkoLnzw" points="[0, 0, 39, 54]$[-39, -54, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kg6yYkBkEfG_EbYrkoLnzw" id="(0.5046728971962616,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kg6yY0BkEfG_EbYrkoLnzw" id="(0.022222222222222223,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_SBd_EEBlEfG_EbYrkoLnzw" type="4001" element="_SBYflEBlEfG_EbYrkoLnzw" source="_vVEjYEBiEfG_EbYrkoLnzw" target="_PN56AEBfEfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_SBd_FEBlEfG_EbYrkoLnzw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SBd_FUBlEfG_EbYrkoLnzw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_SBd_FkBlEfG_EbYrkoLnzw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SBd_F0BlEfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_SBd_GEBlEfG_EbYrkoLnzw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SBd_GUBlEfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_SBd_EUBlEfG_EbYrkoLnzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_SBd_EkBlEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SBd_E0BlEfG_EbYrkoLnzw" points="[0, 0, 130, -382]$[-130, 382, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SBd_GkBlEfG_EbYrkoLnzw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SBd_G0BlEfG_EbYrkoLnzw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_SBemIEBlEfG_EbYrkoLnzw" type="4001" element="_SBZtokBlEfG_EbYrkoLnzw" source="_SBd_EEBlEfG_EbYrkoLnzw" target="_LHC1gEBjEfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_SBemJEBlEfG_EbYrkoLnzw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SBemJUBlEfG_EbYrkoLnzw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_SBfNMEBlEfG_EbYrkoLnzw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SBfNMUBlEfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_SBfNMkBlEfG_EbYrkoLnzw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SBfNM0BlEfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_SBemIUBlEfG_EbYrkoLnzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_SBemIkBlEfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SBemI0BlEfG_EbYrkoLnzw" points="[0, 0, -1238, -50]$[1238, 50, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SBfNNEBlEfG_EbYrkoLnzw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SBfNNUBlEfG_EbYrkoLnzw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_t9JFI0B4EfG_EbYrkoLnzw" type="4001" element="_t7_OkEB4EfG_EbYrkoLnzw" source="_qeE44EBaEfG_EbYrkoLnzw" target="_t9IeEEB4EfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_t9JFJ0B4EfG_EbYrkoLnzw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t9JFKEB4EfG_EbYrkoLnzw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_t9JFKUB4EfG_EbYrkoLnzw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t9JFKkB4EfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_t9JFK0B4EfG_EbYrkoLnzw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t9JFLEB4EfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_t9JFJEB4EfG_EbYrkoLnzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_t9JFJUB4EfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_t9JFJkB4EfG_EbYrkoLnzw" points="[0, 0, 341, 89]$[-301, -79, 40, 10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t9JsMEB4EfG_EbYrkoLnzw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_t9JsMUB4EfG_EbYrkoLnzw" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_AiIqU0B5EfG_EbYrkoLnzw" type="4001" element="_AgnAVEB5EfG_EbYrkoLnzw" source="_9NE5MEBbEfG_EbYrkoLnzw" target="_AiHcMEB5EfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_AiIqV0B5EfG_EbYrkoLnzw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AiIqWEB5EfG_EbYrkoLnzw" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AiIqWUB5EfG_EbYrkoLnzw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AiIqWkB5EfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AiIqW0B5EfG_EbYrkoLnzw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AiIqXEB5EfG_EbYrkoLnzw" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_AiIqVEB5EfG_EbYrkoLnzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_AiIqVUB5EfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AiIqVkB5EfG_EbYrkoLnzw" points="[-191, -51, 690, 181]$[-841, -222, 40, 10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AiJRYEB5EfG_EbYrkoLnzw" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AiJRYUB5EfG_EbYrkoLnzw" id="(0.5,0.5)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_5x9IAEhwEfGtaomPpWtPEg" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_5x9IAUhwEfGtaomPpWtPEg"/>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_nszrIEBaEfG_EbYrkoLnzw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_nszrIUBaEfG_EbYrkoLnzw"/>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_AqURgEhyEfGtaomPpWtPEg" name="«ModuleDefinition» Project" tooltipText="ModuleDefinition Project">
-      <target xmi:type="core:ModuleDefinition" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
-      <semanticElements xmi:type="core:ModuleDefinition" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_AIIDEEh1EfGtaomPpWtPEg" tooltipText="PortDefinition Input Port" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="core:PortDefinition" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@inputPorts.0"/>
-        <semanticElements xmi:type="core:PortDefinition" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@inputPorts.0"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_AIJ4QEh1EfGtaomPpWtPEg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_pdJAUEBaEfG_EbYrkoLnzw" name="«ModuleDefinition» TaskManagement" tooltipText="ModuleDefinition TaskManagement">
+      <target xmi:type="core:ModuleDefinition" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
+      <semanticElements xmi:type="core:ModuleDefinition" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_qZZKMEB7EfG_EbYrkoLnzw" tooltipText="PortDefinition Input Port" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="core:PortDefinition" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@inputPorts.0"/>
+        <semanticElements xmi:type="core:PortDefinition" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@inputPorts.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_qZZKMUB7EfG_EbYrkoLnzw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" color="255,255,255">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ModuleDefinition']/@borderedNodeMappings[name='InputPort']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ModuleDefinition']/@borderedNodeMappings[name='InputPort']"/>
       </ownedBorderedNodes>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_AqX74EhyEfGtaomPpWtPEg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="209,209,209">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_pdKOcEBaEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" backgroundColor="209,209,209">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ModuleDefinition']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ModuleDefinition']"/>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_JPZ4AEhyEfGtaomPpWtPEg" name=" «ViewContainer» Table Project Page" tooltipText="ViewContainer Table Project Page" outgoingEdges="_UrybwEhyEfGtaomPpWtPEg" width="30" height="20">
-        <target xmi:type="core:ViewContainer" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        <semanticElements xmi:type="core:ViewContainer" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_JPcUQEhyEfGtaomPpWtPEg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_qbzA8EBaEfG_EbYrkoLnzw" name=" «ViewContainer» TaskList" tooltipText="ViewContainer TaskList" outgoingEdges="_t7_OkEB4EfG_EbYrkoLnzw" incomingEdges="_21K0mEBeEfG_EbYrkoLnzw _ke289EBkEfG_EbYrkoLnzw" width="30" height="20">
+        <target xmi:type="core:ViewContainer" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        <semanticElements xmi:type="core:ViewContainer" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        <ownedBorderedNodes xmi:type="diagram:DNode" uid="_7R6iIEBdEfG_EbYrkoLnzw" name="Add" outgoingEdges="_gz4HoEBeEfG_EbYrkoLnzw" width="-1" height="-1" resizeKind="NSEW">
+          <target xmi:type="core:ViewElementEvent" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0"/>
+          <semanticElements xmi:type="core:ViewElementEvent" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0"/>
+          <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_7SH9gEBdEfG_EbYrkoLnzw" showIcon="false" workspacePath="/IFMLEditorDesign/img/components/ViewElementEvent.png">
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@borderedNodeMappings[name='ViewElementEvent']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@borderedNodeMappings[name='ViewElementEvent']"/>
+        </ownedBorderedNodes>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_qb0PEEBaEfG_EbYrkoLnzw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ModuleDefinition']/@subContainerMappings[name='ViewContainer_ModuleDefinition']"/>
-        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_P9-BwEhyEfGtaomPpWtPEg" name="«List»  Table Project" tooltipText="List Table Project" width="25" height="12">
-          <target xmi:type="ext:List" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
-          <semanticElements xmi:type="ext:List" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_x0XxAEBaEfG_EbYrkoLnzw" name="«List»  List" tooltipText="List List" width="25" height="12">
+          <target xmi:type="ext:List" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
+          <semanticElements xmi:type="ext:List" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_vRJFoEBiEfG_EbYrkoLnzw" name="Edit" outgoingEdges="_SBYflEBlEfG_EbYrkoLnzw" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="core:ViewElementEvent" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0"/>
+            <semanticElements xmi:type="core:ViewElementEvent" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0"/>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vRLh4EBiEfG_EbYrkoLnzw" showIcon="false" workspacePath="/IFMLEditorDesign/img/components/ViewElementEvent.png">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@borderedNodeMappings[name='ViewElementEvent']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@borderedNodeMappings[name='ViewElementEvent']"/>
+          </ownedBorderedNodes>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_P9-BwUhyEfGtaomPpWtPEg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="209,209,209" backgroundColor="209,209,209">
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_x0YYEEBaEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="209,209,209" backgroundColor="209,209,209">
             <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']"/>
-          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_cQDecEhyEfGtaomPpWtPEg" name="«DataBinding»  List Project" tooltipText="DataBinding List Project" width="20" height="3">
-            <target xmi:type="core:DataBinding" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
-            <semanticElements xmi:type="core:DataBinding" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
-            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_cQEFgEhyEfGtaomPpWtPEg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_zbITcEBaEfG_EbYrkoLnzw" name="«VisualizationAttribute»  title: String" tooltipText="VisualizationAttribute title" width="20" height="4">
+            <target xmi:type="core:VisualizationAttribute" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
+            <semanticElements xmi:type="core:VisualizationAttribute" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_zbJhkEBaEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.0/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_6wJZMEBaEfG_EbYrkoLnzw" name="«VisualizationAttribute»  description: String" tooltipText="VisualizationAttribute description" width="20" height="4">
+            <target xmi:type="core:VisualizationAttribute" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.1"/>
+            <semanticElements xmi:type="core:VisualizationAttribute" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.1"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_6wKAQEBaEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.0/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_-F3-4EBaEfG_EbYrkoLnzw" name="«DataBinding»  TaskData" tooltipText="DataBinding TaskData" width="20" height="3">
+            <target xmi:type="core:DataBinding" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.2"/>
+            <semanticElements xmi:type="core:DataBinding" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.2"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_-F4l8EBaEfG_EbYrkoLnzw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
               <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@style"/>
             </ownedStyle>
             <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']"/>
-            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_zK4bcEhyEfGtaomPpWtPEg" name="«VisualizationAttribute»  Id Project: Integer" tooltipText="VisualizationAttribute Id Project" width="20" height="4">
-              <target xmi:type="core:VisualizationAttribute" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@subViewComponentParts.0"/>
-              <semanticElements xmi:type="core:VisualizationAttribute" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@subViewComponentParts.0"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_biRygEBbEfG_EbYrkoLnzw" name="«VisualizationAttribute»  title: String" tooltipText="VisualizationAttribute title" width="20" height="4">
+              <target xmi:type="core:VisualizationAttribute" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.2/@subViewComponentParts.0"/>
+              <semanticElements xmi:type="core:VisualizationAttribute" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.2/@subViewComponentParts.0"/>
               <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
               <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
               <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_zK-iEEhyEfGtaomPpWtPEg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_biSZkEBbEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
                 <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.0/@style"/>
               </ownedStyle>
               <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@subContainerMappings[name='SubViewComponentPart']"/>
             </ownedDiagramElements>
-            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_HKiAwEhzEfGtaomPpWtPEg" name="«VisualizationAttribute»  Project Name: String" tooltipText="VisualizationAttribute Project Name" width="20" height="4">
-              <target xmi:type="core:VisualizationAttribute" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@subViewComponentParts.1"/>
-              <semanticElements xmi:type="core:VisualizationAttribute" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@subViewComponentParts.1"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_e1--8EBbEfG_EbYrkoLnzw" name="«VisualizationAttribute»  description: String" tooltipText="VisualizationAttribute description" width="20" height="4">
+              <target xmi:type="core:VisualizationAttribute" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.2/@subViewComponentParts.1"/>
+              <semanticElements xmi:type="core:VisualizationAttribute" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.2/@subViewComponentParts.1"/>
               <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
               <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
               <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_HKiAwUhzEfGtaomPpWtPEg" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_e1--8UBbEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
                 <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.0/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@subContainerMappings[name='SubViewComponentPart']"/>
+            </ownedDiagramElements>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_hpPwwEBbEfG_EbYrkoLnzw" name="«VisualizationAttribute»  status: String" tooltipText="VisualizationAttribute status" width="20" height="4">
+              <target xmi:type="core:VisualizationAttribute" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.2/@subViewComponentParts.2"/>
+              <semanticElements xmi:type="core:VisualizationAttribute" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.2/@subViewComponentParts.2"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_hpPwwUBbEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.0/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@subContainerMappings[name='SubViewComponentPart']"/>
+            </ownedDiagramElements>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_iYibgEBiEfG_EbYrkoLnzw" name="«IFMLParameter»  idTask: Invalid Type" tooltipText="IFMLParameter idTask" width="20" height="3">
+              <target xmi:type="core:IFMLParameter" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.2/@parameters.0"/>
+              <semanticElements xmi:type="core:IFMLParameter" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.2/@parameters.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_iYibgUBiEfG_EbYrkoLnzw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@subContainerMappings[name='IFMLParameter_ViewComponentPart']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@subContainerMappings[name='IFMLParameter_ViewComponentPart']"/>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_9Kp3UEBbEfG_EbYrkoLnzw" name=" «ViewContainer» AddTask" tooltipText="ViewContainer AddTask" outgoingEdges="_AgnAVEB5EfG_EbYrkoLnzw" incomingEdges="_gz4HoEBeEfG_EbYrkoLnzw" width="30" height="20">
+        <target xmi:type="core:ViewContainer" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+        <semanticElements xmi:type="core:ViewContainer" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_9Kp3UUBbEfG_EbYrkoLnzw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ModuleDefinition']/@subContainerMappings[name='ViewContainer_ModuleDefinition']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_FtgCIEBcEfG_EbYrkoLnzw" name="«Form»  AddTask" tooltipText="Form AddTask" width="25" height="12">
+          <target xmi:type="ext:Form" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0"/>
+          <semanticElements xmi:type="ext:Form" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0"/>
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_mfLdkEBeEfG_EbYrkoLnzw" name="OnSubmit Event" outgoingEdges="_1jaRxEBeEfG_EbYrkoLnzw" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="ext:OnSubmitEvent" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0"/>
+            <semanticElements xmi:type="ext:OnSubmitEvent" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0"/>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_mfN50EBeEfG_EbYrkoLnzw" labelSize="9" showIcon="false" workspacePath="/IFMLEditorDesign/img/components/OnSubmitEvent.png">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@borderedNodeMappings[name='ViewElementEvent']/@conditionnalStyles.1/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@borderedNodeMappings[name='ViewElementEvent']"/>
+          </ownedBorderedNodes>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_FtgpMEBcEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="209,209,209" backgroundColor="209,209,209">
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_bzJqoEBcEfG_EbYrkoLnzw" name="«SimpleField»  Simple Field: String" tooltipText="SimpleField Simple Field" width="20" height="3">
+            <target xmi:type="ext:SimpleField" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.0"/>
+            <semanticElements xmi:type="ext:SimpleField" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.0"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_bzK4wEBcEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.1/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_vT-whEBdEfG_EbYrkoLnzw" name="«IFMLSlot»  Slot: Invalid Type" tooltipText="IFMLSlot Slot" width="20" height="3">
+              <target xmi:type="ext:IFMLSlot" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
+              <semanticElements xmi:type="ext:IFMLSlot" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_vT-whUBdEfG_EbYrkoLnzw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@subContainerMappings[name='IFMLParameter_ViewComponentPart']/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@subContainerMappings[name='IFMLParameter_ViewComponentPart']"/>
+            </ownedDiagramElements>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_wOa_gEBdEfG_EbYrkoLnzw" name="«IFMLSlot»  title: Invalid Type" tooltipText="IFMLSlot title" width="20" height="3">
+              <target xmi:type="ext:IFMLSlot" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.0/@subViewComponentParts.0"/>
+              <semanticElements xmi:type="ext:IFMLSlot" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.0/@subViewComponentParts.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_wOa_gUBdEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.1/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@subContainerMappings[name='SubViewComponentPart']"/>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_9ayvoEBcEfG_EbYrkoLnzw" name="«SimpleField»  Simple Field: String" tooltipText="SimpleField Simple Field" width="20" height="3">
+            <target xmi:type="ext:SimpleField" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.1"/>
+            <semanticElements xmi:type="ext:SimpleField" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.1"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_9ayvoUBcEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.1/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_FEfr8EBdEfG_EbYrkoLnzw" name="«IFMLSlot»  description: Invalid Type" tooltipText="IFMLSlot description" width="20" height="3">
+              <target xmi:type="ext:IFMLSlot" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.1/@subViewComponentParts.0"/>
+              <semanticElements xmi:type="ext:IFMLSlot" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewComponentParts.1/@subViewComponentParts.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_FEfr8UBdEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.1/@style"/>
               </ownedStyle>
               <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@subContainerMappings[name='SubViewComponentPart']"/>
             </ownedDiagramElements>
           </ownedDiagramElements>
         </ownedDiagramElements>
       </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_rJ6HUEBeEfG_EbYrkoLnzw" name="«Action» Add Task" tooltipText="IFMLAction Add Task" outgoingEdges="_21K0mEBeEfG_EbYrkoLnzw" incomingEdges="_1jaRxEBeEfG_EbYrkoLnzw">
+        <target xmi:type="core:IFMLAction" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+        <semanticElements xmi:type="core:IFMLAction" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_rJ6uYEBeEfG_EbYrkoLnzw" labelSize="9" showIcon="false" labelPosition="node" workspacePath="/IFMLEditorDesign/img/components/Action.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='Action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ModuleDefinition']/@subContainerMappings[name='Action_ModuleDefinition']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_PKmHUEBfEfG_EbYrkoLnzw" name=" «ViewContainer» Edit" tooltipText="ViewContainer Edit" incomingEdges="_SBYflEBlEfG_EbYrkoLnzw" width="30" height="20">
+        <target xmi:type="core:ViewContainer" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
+        <semanticElements xmi:type="core:ViewContainer" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_PKmHUUBfEfG_EbYrkoLnzw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ModuleDefinition']/@subContainerMappings[name='ViewContainer_ModuleDefinition']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Q-3hUEBfEfG_EbYrkoLnzw" name="«Form»  EditTask" tooltipText="Form EditTask" width="25" height="12">
+          <target xmi:type="ext:Form" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0"/>
+          <semanticElements xmi:type="ext:Form" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0"/>
+          <ownedBorderedNodes xmi:type="diagram:DNode" uid="_e-dPYEBkEfG_EbYrkoLnzw" name="OnSubmit Event" outgoingEdges="_ibZ3cEBkEfG_EbYrkoLnzw" width="-1" height="-1" resizeKind="NSEW">
+            <target xmi:type="ext:OnSubmitEvent" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewElementEvents.0"/>
+            <semanticElements xmi:type="ext:OnSubmitEvent" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewElementEvents.0"/>
+            <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_e-dPYUBkEfG_EbYrkoLnzw" labelSize="9" showIcon="false" workspacePath="/IFMLEditorDesign/img/components/OnSubmitEvent.png">
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@borderedNodeMappings[name='ViewElementEvent']/@conditionnalStyles.1/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@borderedNodeMappings[name='ViewElementEvent']"/>
+          </ownedBorderedNodes>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_Q-3hUUBfEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="209,209,209" backgroundColor="209,209,209">
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']"/>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_WYGP0EBfEfG_EbYrkoLnzw" name="«SimpleField»  title: String" tooltipText="SimpleField title" width="20" height="3">
+            <target xmi:type="ext:SimpleField" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.0"/>
+            <semanticElements xmi:type="ext:SimpleField" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.0"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_WYGP0UBfEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.1/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_dF_EIEBfEfG_EbYrkoLnzw" name="«IFMLSlot»  title: Invalid Type" tooltipText="IFMLSlot title" width="20" height="3">
+              <target xmi:type="ext:IFMLSlot" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.0/@subViewComponentParts.0"/>
+              <semanticElements xmi:type="ext:IFMLSlot" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.0/@subViewComponentParts.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_dF_EIUBfEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.1/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@subContainerMappings[name='SubViewComponentPart']"/>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_XLPkAEBfEfG_EbYrkoLnzw" name="«SimpleField»  description: String" tooltipText="SimpleField description" width="20" height="3">
+            <target xmi:type="ext:SimpleField" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.1"/>
+            <semanticElements xmi:type="ext:SimpleField" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.1"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_XLPkAUBfEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.1/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_jZebcUBfEfG_EbYrkoLnzw" name="«IFMLSlot»  description: Invalid Type" tooltipText="IFMLSlot description" width="20" height="3">
+              <target xmi:type="ext:IFMLSlot" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.1/@subViewComponentParts.0"/>
+              <semanticElements xmi:type="ext:IFMLSlot" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.1/@subViewComponentParts.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_jZfCgEBfEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.1/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@subContainerMappings[name='SubViewComponentPart']"/>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_X2cdIEBfEfG_EbYrkoLnzw" name="«SimpleField»  status: String" tooltipText="SimpleField status" width="20" height="3">
+            <target xmi:type="ext:SimpleField" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.2"/>
+            <semanticElements xmi:type="ext:SimpleField" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.2"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_X2cdIUBfEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.1/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']"/>
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_n5axgEBfEfG_EbYrkoLnzw" name="«IFMLSlot»  status: Invalid Type" tooltipText="IFMLSlot status" width="20" height="3">
+              <target xmi:type="ext:IFMLSlot" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.2/@subViewComponentParts.0"/>
+              <semanticElements xmi:type="ext:IFMLSlot" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.2/@subViewComponentParts.0"/>
+              <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+              <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+              <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+              <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_n5axgUBfEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+                <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@conditionnalStyles.1/@style"/>
+              </ownedStyle>
+              <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='ViewComponentPart']/@subContainerMappings[name='SubViewComponentPart']"/>
+            </ownedDiagramElements>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_cAla8EBiEfG_EbYrkoLnzw" name="«IFMLParameter»  idTask: Invalid Type" tooltipText="IFMLParameter idTask" width="20" height="3">
+            <target xmi:type="core:IFMLParameter" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0"/>
+            <semanticElements xmi:type="core:IFMLParameter" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0"/>
+            <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_cAla8UBiEfG_EbYrkoLnzw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+              <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='IFMLParameter_ViewComponent']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@subContainerMappings[name='ViewComponent']/@subContainerMappings[name='IFMLParameter_ViewComponent']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_UGJCAEBkEfG_EbYrkoLnzw" name="«Action» Edit Task" tooltipText="IFMLAction Edit Task" outgoingEdges="_ke289EBkEfG_EbYrkoLnzw" incomingEdges="_ibZ3cEBkEfG_EbYrkoLnzw">
+        <target xmi:type="core:IFMLAction" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4"/>
+        <semanticElements xmi:type="core:IFMLAction" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_UGJCAUBkEfG_EbYrkoLnzw" labelSize="9" showIcon="false" labelPosition="node" workspacePath="/IFMLEditorDesign/img/components/Action.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='Action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ModuleDefinition']/@subContainerMappings[name='Action_ModuleDefinition']"/>
+      </ownedDiagramElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_UrCN0EhyEfGtaomPpWtPEg" name="/project" incomingEdges="_UrybwEhyEfGtaomPpWtPEg" width="8" height="8" resizeKind="NSEW">
-      <target xmi:type="core:Annotation" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@annotations.0"/>
-      <semanticElements xmi:type="core:Annotation" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@annotations.0"/>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_gz4HoEBeEfG_EbYrkoLnzw" sourceNode="_7R6iIEBdEfG_EbYrkoLnzw" targetNode="_9Kp3UEBbEfG_EbYrkoLnzw">
+      <target xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+      <semanticElements xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_gz4HoUBeEfG_EbYrkoLnzw">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='NavigationFlow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_gz4HokBeEfG_EbYrkoLnzw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='NavigationFlow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_1jaRxEBeEfG_EbYrkoLnzw" sourceNode="_mfLdkEBeEfG_EbYrkoLnzw" targetNode="_rJ6HUEBeEfG_EbYrkoLnzw">
+      <target xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+      <semanticElements xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_1jaRxUBeEfG_EbYrkoLnzw">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='NavigationFlow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_1jaRxkBeEfG_EbYrkoLnzw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='NavigationFlow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_21K0mEBeEfG_EbYrkoLnzw" sourceNode="_rJ6HUEBeEfG_EbYrkoLnzw" targetNode="_qbzA8EBaEfG_EbYrkoLnzw">
+      <target xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@outInteractionFlows.0"/>
+      <semanticElements xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@outInteractionFlows.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_21K0mUBeEfG_EbYrkoLnzw">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='NavigationFlow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_21K0mkBeEfG_EbYrkoLnzw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='NavigationFlow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_LFsKoEBjEfG_EbYrkoLnzw" name="«ParameterBindingGroup»" tooltipText="ParameterBindingGroup " incomingEdges="_SBZtokBlEfG_EbYrkoLnzw">
+      <target xmi:type="core:ParameterBindingGroup" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0/@parameterBindingGroup"/>
+      <semanticElements xmi:type="core:ParameterBindingGroup" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0/@parameterBindingGroup"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:Note" uid="_UrEDAEhyEfGtaomPpWtPEg" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_LFsxsEBjEfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ParameterBindingGroup']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ParameterBindingGroup']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_vgxgQEBmEfG_EbYrkoLnzw" name="idTask-->idTask">
+        <target xmi:type="core:ParameterBinding" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0/@parameterBindingGroup/@parameterBindings.0"/>
+        <semanticElements xmi:type="core:ParameterBinding" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0/@parameterBindingGroup/@parameterBindings.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_vgzVcEBmEfG_EbYrkoLnzw" labelSize="9" showIcon="false">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ParameterBindingGroup']/@subNodeMappings[name='ParameterBinding']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ParameterBindingGroup']/@subNodeMappings[name='ParameterBinding']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ibZ3cEBkEfG_EbYrkoLnzw" sourceNode="_e-dPYEBkEfG_EbYrkoLnzw" targetNode="_UGJCAEBkEfG_EbYrkoLnzw">
+      <target xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+      <semanticElements xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ibZ3cUBkEfG_EbYrkoLnzw">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='NavigationFlow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ibZ3ckBkEfG_EbYrkoLnzw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='NavigationFlow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ke289EBkEfG_EbYrkoLnzw" sourceNode="_UGJCAEBkEfG_EbYrkoLnzw" targetNode="_qbzA8EBaEfG_EbYrkoLnzw">
+      <target xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@outInteractionFlows.0"/>
+      <semanticElements xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@outInteractionFlows.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_ke3j8EBkEfG_EbYrkoLnzw">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='NavigationFlow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_ke3j8UBkEfG_EbYrkoLnzw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='NavigationFlow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_SBYflEBlEfG_EbYrkoLnzw" outgoingEdges="_SBZtokBlEfG_EbYrkoLnzw" sourceNode="_vRJFoEBiEfG_EbYrkoLnzw" targetNode="_PKmHUEBfEfG_EbYrkoLnzw">
+      <target xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+      <semanticElements xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_SBYflUBlEfG_EbYrkoLnzw">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='NavigationFlow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_SBYflkBlEfG_EbYrkoLnzw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='NavigationFlow']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_SBZtokBlEfG_EbYrkoLnzw" sourceNode="_SBYflEBlEfG_EbYrkoLnzw" targetNode="_LFsKoEBjEfG_EbYrkoLnzw">
+      <target xmi:type="core:NavigationFlow" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_SBZto0BlEfG_EbYrkoLnzw" targetArrow="NoDecoration" strokeColor="209,209,209">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='FromFlowToParameterBindingGroup']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_SBZtpEBlEfG_EbYrkoLnzw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='FromFlowToParameterBindingGroup']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_t6_JAEB4EfG_EbYrkoLnzw" name="/task" incomingEdges="_t7_OkEB4EfG_EbYrkoLnzw" width="8" height="8" resizeKind="NSEW">
+      <target xmi:type="core:Annotation" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@annotations.0"/>
+      <semanticElements xmi:type="core:Annotation" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@annotations.0"/>
+      <ownedStyle xmi:type="diagram:Note" uid="_t6_JAUB4EfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
         <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_V4Ou0kh0EfGtaomPpWtPEg" name="/" width="8" height="8" resizeKind="NSEW">
-      <target xmi:type="core:Annotation" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
-      <semanticElements xmi:type="core:Annotation" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:Note" uid="_V4Ou00h0EfGtaomPpWtPEg" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_Afnh0UB5EfG_EbYrkoLnzw" name="/task/tambah" incomingEdges="_AgnAVEB5EfG_EbYrkoLnzw" width="8" height="8" resizeKind="NSEW">
+      <target xmi:type="core:Annotation" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@annotations.0"/>
+      <semanticElements xmi:type="core:Annotation" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@annotations.0"/>
+      <ownedStyle xmi:type="diagram:Note" uid="_Afnh0kB5EfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
         <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_8FEdVEh0EfGtaomPpWtPEg" name="Project" width="8" height="8" resizeKind="NSEW">
-      <target xmi:type="core:Annotation" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@annotations.0"/>
-      <semanticElements xmi:type="core:Annotation" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@annotations.0"/>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_pHSJcEB4EfG_EbYrkoLnzw" name="/" width="8" height="8" resizeKind="NSEW">
+      <target xmi:type="core:Annotation" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
+      <semanticElements xmi:type="core:Annotation" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:Note" uid="_8FEdVUh0EfGtaomPpWtPEg" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
+      <ownedStyle xmi:type="diagram:Note" uid="_pHouwEB4EfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
         <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_UrybwEhyEfGtaomPpWtPEg" sourceNode="_JPZ4AEhyEfGtaomPpWtPEg" targetNode="_UrCN0EhyEfGtaomPpWtPEg">
-      <target xmi:type="core:ViewContainer" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Ur0Q8EhyEfGtaomPpWtPEg" targetArrow="NoDecoration" strokeColor="209,209,209">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_dUiMxkB7EfG_EbYrkoLnzw" name="TaskManagement" width="8" height="8" resizeKind="NSEW">
+      <ownedStyle xmi:type="diagram:Note" uid="_dUiz0EB7EfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_t7_OkEB4EfG_EbYrkoLnzw" sourceNode="_qbzA8EBaEfG_EbYrkoLnzw" targetNode="_t6_JAEB4EfG_EbYrkoLnzw">
+      <target xmi:type="core:ViewContainer" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_t7_OkUB4EfG_EbYrkoLnzw" targetArrow="NoDecoration" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='FromObjectToAnnotation']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Ur0Q8UhyEfGtaomPpWtPEg"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_t7_OkkB4EfG_EbYrkoLnzw"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='FromObjectToAnnotation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_AgnAVEB5EfG_EbYrkoLnzw" sourceNode="_9Kp3UEBbEfG_EbYrkoLnzw" targetNode="_Afnh0UB5EfG_EbYrkoLnzw">
+      <target xmi:type="core:ViewContainer" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_AgnnYEB5EfG_EbYrkoLnzw" targetArrow="NoDecoration" strokeColor="209,209,209">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='FromObjectToAnnotation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_AgnnYUB5EfG_EbYrkoLnzw"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='FromObjectToAnnotation']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
-    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_5uBqQEhwEfGtaomPpWtPEg"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_npR2AUBaEfG_EbYrkoLnzw"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/id.ac.ui.cs.prices.ifmldop.editor.design/description/dop_extension.odesign#//@ownedViewpoints[name='IFML_DOP_Extension']/@ownedRepresentationExtensions[name='IFML%20DOP%20Extension']/@layers[name='DOP%20Layer']"/>
-    <target xmi:type="core:IFMLModel" href="project.core#/"/>
+    <target xmi:type="core:IFMLModel" href="My.core#/"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram uid="_M74e4Eh0EfGtaomPpWtPEg">
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_M75tAkh0EfGtaomPpWtPEg" source="GMF_DIAGRAMS">
-      <data xmi:type="notation:Diagram" xmi:id="_M75tA0h0EfGtaomPpWtPEg" type="Sirius" element="_M74e4Eh0EfGtaomPpWtPEg" measurementUnit="Pixel">
-        <children xmi:type="notation:Node" xmi:id="_M81hIEh0EfGtaomPpWtPEg" type="2001" element="_M8XAAEh0EfGtaomPpWtPEg">
-          <children xmi:type="notation:Node" xmi:id="_M81hI0h0EfGtaomPpWtPEg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_M81hJEh0EfGtaomPpWtPEg" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_M81hJUh0EfGtaomPpWtPEg" type="3013" element="_M8XnEEh0EfGtaomPpWtPEg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_M81hJkh0EfGtaomPpWtPEg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M81hJ0h0EfGtaomPpWtPEg"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_M81hIUh0EfGtaomPpWtPEg" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M81hIkh0EfGtaomPpWtPEg" width="80" height="80"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_QuoXwEh0EfGtaomPpWtPEg" type="2002" element="_QsPLEEh0EfGtaomPpWtPEg">
-          <children xmi:type="notation:Node" xmi:id="_QuoXw0h0EfGtaomPpWtPEg" type="5006"/>
-          <children xmi:type="notation:Node" xmi:id="_QuoXxEh0EfGtaomPpWtPEg" type="7001">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_QuoXxUh0EfGtaomPpWtPEg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_QuoXxkh0EfGtaomPpWtPEg"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_QuoXwUh0EfGtaomPpWtPEg" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QuoXwkh0EfGtaomPpWtPEg" x="154" y="84" width="346" height="381"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_V514YEh0EfGtaomPpWtPEg" type="2001" element="_V5UT8kh0EfGtaomPpWtPEg">
-          <children xmi:type="notation:Node" xmi:id="_V514Y0h0EfGtaomPpWtPEg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_V514ZEh0EfGtaomPpWtPEg" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_V514ZUh0EfGtaomPpWtPEg" type="3013" element="_V5UT80h0EfGtaomPpWtPEg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_V514Zkh0EfGtaomPpWtPEg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V514Z0h0EfGtaomPpWtPEg"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_V514YUh0EfGtaomPpWtPEg" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V514Ykh0EfGtaomPpWtPEg" x="378" y="126" width="80" height="80"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_rok1tEh0EfGtaomPpWtPEg" type="2002" element="_rllMEEh0EfGtaomPpWtPEg">
-          <children xmi:type="notation:Node" xmi:id="_rok1t0h0EfGtaomPpWtPEg" type="5006"/>
-          <children xmi:type="notation:Node" xmi:id="_rok1uEh0EfGtaomPpWtPEg" type="7001">
-            <styles xmi:type="notation:SortingStyle" xmi:id="_rok1uUh0EfGtaomPpWtPEg"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_rok1ukh0EfGtaomPpWtPEg"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_1T_LFEh0EfGtaomPpWtPEg" type="3012" element="_1Rt6MEh0EfGtaomPpWtPEg">
-            <children xmi:type="notation:Node" xmi:id="_1T_yIEh0EfGtaomPpWtPEg" type="5010">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_1T_yIUh0EfGtaomPpWtPEg" x="27" y="2"/>
+  <diagram:DSemanticDiagram uid="_RU_Y8EB4EfG_EbYrkoLnzw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_RVERcEB4EfG_EbYrkoLnzw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_RVERcUB4EfG_EbYrkoLnzw" type="Sirius" element="_RU_Y8EB4EfG_EbYrkoLnzw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_RXzcYEB4EfG_EbYrkoLnzw" type="2003" element="_RW2aIEB4EfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_RX0DcEB4EfG_EbYrkoLnzw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_RX0DcUB4EfG_EbYrkoLnzw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_RX0qgEB4EfG_EbYrkoLnzw" type="3010" element="_RW4PUEB4EfG_EbYrkoLnzw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_RX0qgUB4EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_RX0qgkB4EfG_EbYrkoLnzw"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_1T_yIkh0EfGtaomPpWtPEg" type="3005" element="_1RvIUEh0EfGtaomPpWtPEg">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_1T_yI0h0EfGtaomPpWtPEg" fontName="Segoe UI"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1T_yJEh0EfGtaomPpWtPEg"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_RX0DckB4EfG_EbYrkoLnzw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_RX0Dc0B4EfG_EbYrkoLnzw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_RXzcYUB4EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RXzcYkB4EfG_EbYrkoLnzw" x="15" y="15"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_jdVeYEB4EfG_EbYrkoLnzw" type="2002" element="_jYCHoEB4EfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_jdWFcEB4EfG_EbYrkoLnzw" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_jdWFcUB4EfG_EbYrkoLnzw" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_jdWFckB4EfG_EbYrkoLnzw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_jdWFc0B4EfG_EbYrkoLnzw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_jdVeYUB4EfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jdVeYkB4EfG_EbYrkoLnzw" x="285" y="165" width="418" height="313"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_pLFEUEB4EfG_EbYrkoLnzw" type="2001" element="_pKM6kEB4EfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_pLFrYEB4EfG_EbYrkoLnzw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_pLFrYUB4EfG_EbYrkoLnzw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_pLFrYkB4EfG_EbYrkoLnzw" type="3013" element="_pKM6kUB4EfG_EbYrkoLnzw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_pLFrY0B4EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pLFrZEB4EfG_EbYrkoLnzw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_pLFEUUB4EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pLFEUkB4EfG_EbYrkoLnzw" x="560" y="-2" width="80" height="80"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_t9JsMkB4EfG_EbYrkoLnzw" type="2001" element="_t8lEcEB4EfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_t9JsNUB4EfG_EbYrkoLnzw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_t9JsNkB4EfG_EbYrkoLnzw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_t9JsN0B4EfG_EbYrkoLnzw" type="3013" element="_t8lEcUB4EfG_EbYrkoLnzw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_t9JsOEB4EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t9JsOUB4EfG_EbYrkoLnzw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_t9JsM0B4EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t9JsNEB4EfG_EbYrkoLnzw" x="730" y="215" width="80" height="80"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_AiJRYkB5EfG_EbYrkoLnzw" type="2001" element="_AhZDckB5EfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_AiJRZUB5EfG_EbYrkoLnzw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_AiJRZkB5EfG_EbYrkoLnzw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_AiJRZ0B5EfG_EbYrkoLnzw" type="3013" element="_AhZqgEB5EfG_EbYrkoLnzw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_AiJRaEB5EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AiJRaUB5EfG_EbYrkoLnzw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_AiJRY0B5EfG_EbYrkoLnzw" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AiJRZEB5EfG_EbYrkoLnzw" x="760" y="344" width="80" height="80"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ZmOhcECbEfGLBITVjDn0Ag" type="2002" element="_ZjTwUECbEfGLBITVjDn0Ag">
+          <children xmi:type="notation:Node" xmi:id="_ZmhcYECbEfGLBITVjDn0Ag" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_ZmiDcECbEfGLBITVjDn0Ag" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ZmiDcUCbEfGLBITVjDn0Ag"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ZmiDckCbEfGLBITVjDn0Ag"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gRNywECbEfGLBITVjDn0Ag" type="3012" element="_gPWKgECbEfGLBITVjDn0Ag">
+            <children xmi:type="notation:Node" xmi:id="_gRNyw0CbEfGLBITVjDn0Ag" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_gRNyxECbEfGLBITVjDn0Ag" x="27" y="5"/>
             </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_1T_LFUh0EfGtaomPpWtPEg" fontName="Segoe UI" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1T_LFkh0EfGtaomPpWtPEg" x="-18" y="63" width="26" height="25"/>
+            <children xmi:type="notation:Node" xmi:id="_gRQPAECbEfGLBITVjDn0Ag" type="3005" element="_gPX_sECbEfGLBITVjDn0Ag">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_gRQPAUCbEfGLBITVjDn0Ag" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gRQPAkCbEfGLBITVjDn0Ag"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_gRNywUCbEfGLBITVjDn0Ag" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gRNywkCbEfGLBITVjDn0Ag" x="-18" y="60" width="26" height="25"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_rok1tUh0EfGtaomPpWtPEg" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rok1tkh0EfGtaomPpWtPEg" x="644" y="84" width="332" height="374"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ZmOhcUCbEfGLBITVjDn0Ag" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZmOhckCbEfGLBITVjDn0Ag" x="-35" y="200" width="300" height="200"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_8GnVcEh0EfGtaomPpWtPEg" type="2001" element="_8GEi5Eh0EfGtaomPpWtPEg">
-          <children xmi:type="notation:Node" xmi:id="_8GnVc0h0EfGtaomPpWtPEg" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_8GnVdEh0EfGtaomPpWtPEg" y="5"/>
+        <children xmi:type="notation:Node" xmi:id="_c-oAoECbEfGLBITVjDn0Ag" type="2001" element="_c9le1ECbEfGLBITVjDn0Ag">
+          <children xmi:type="notation:Node" xmi:id="_c-onsECbEfGLBITVjDn0Ag" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_c-onsUCbEfGLBITVjDn0Ag" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8GnVdUh0EfGtaomPpWtPEg" type="3013" element="_8GEi5Uh0EfGtaomPpWtPEg">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_8GnVdkh0EfGtaomPpWtPEg" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8GnVd0h0EfGtaomPpWtPEg"/>
+          <children xmi:type="notation:Node" xmi:id="_c-pOwECbEfGLBITVjDn0Ag" type="3013" element="_c9le1UCbEfGLBITVjDn0Ag">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_c-pOwUCbEfGLBITVjDn0Ag" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c-pOwkCbEfGLBITVjDn0Ag"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_8GnVcUh0EfGtaomPpWtPEg" fontName="Segoe UI"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8GnVckh0EfGtaomPpWtPEg" x="980" y="21" width="80" height="80"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_c-oAoUCbEfGLBITVjDn0Ag" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c-oAokCbEfGLBITVjDn0Ag" x="115" y="100" width="80" height="80"/>
         </children>
-        <styles xmi:type="notation:DiagramStyle" xmi:id="_M75tBEh0EfGtaomPpWtPEg"/>
-        <edges xmi:type="notation:Edge" xmi:id="_V514aEh0EfGtaomPpWtPEg" type="4001" element="_V50qQEh0EfGtaomPpWtPEg" source="_QuoXwEh0EfGtaomPpWtPEg" target="_V514YEh0EfGtaomPpWtPEg">
-          <children xmi:type="notation:Node" xmi:id="_V52fcEh0EfGtaomPpWtPEg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V52fcUh0EfGtaomPpWtPEg" x="4" y="9"/>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_RVERckB4EfG_EbYrkoLnzw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_pLFrZUB4EfG_EbYrkoLnzw" type="4001" element="_pLCBAEB4EfG_EbYrkoLnzw" source="_jdVeYEB4EfG_EbYrkoLnzw" target="_pLFEUEB4EfG_EbYrkoLnzw">
+          <children xmi:type="notation:Node" xmi:id="_pLG5gEB4EfG_EbYrkoLnzw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pLG5gUB4EfG_EbYrkoLnzw" x="8" y="-6"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_V52fckh0EfGtaomPpWtPEg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V52fc0h0EfGtaomPpWtPEg" x="-4" y="-9"/>
+          <children xmi:type="notation:Node" xmi:id="_pLG5gkB4EfG_EbYrkoLnzw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pLG5g0B4EfG_EbYrkoLnzw" x="-8" y="6"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_V52fdEh0EfGtaomPpWtPEg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V52fdUh0EfGtaomPpWtPEg" x="-4" y="-9"/>
+          <children xmi:type="notation:Node" xmi:id="_pLG5hEB4EfG_EbYrkoLnzw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pLG5hUB4EfG_EbYrkoLnzw" x="-8" y="6"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_V514aUh0EfGtaomPpWtPEg"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_V514akh0EfGtaomPpWtPEg" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V514a0h0EfGtaomPpWtPEg" points="[-139, -68, 80, 39]$[-179, -88, 40, 19]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_V52fdkh0EfGtaomPpWtPEg" id="(1.4055232558139534,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_V52fd0h0EfGtaomPpWtPEg" id="(0.5,0.5)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_pLFrZkB4EfG_EbYrkoLnzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_pLFrZ0B4EfG_EbYrkoLnzw" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pLFraEB4EfG_EbYrkoLnzw" points="[72, -99, -94, 127]$[136, -186, -30, 40]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pLG5hkB4EfG_EbYrkoLnzw" id="(0.3581730769230769,0.3183279742765273)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pLG5h0B4EfG_EbYrkoLnzw" id="(0.5,0.5)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_8Gn8gEh0EfGtaomPpWtPEg" type="4001" element="_8GmHVEh0EfGtaomPpWtPEg" source="_rok1tEh0EfGtaomPpWtPEg" target="_8GnVcEh0EfGtaomPpWtPEg">
-          <children xmi:type="notation:Node" xmi:id="_8Gn8hEh0EfGtaomPpWtPEg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Gn8hUh0EfGtaomPpWtPEg" x="8" y="-8"/>
+        <edges xmi:type="notation:Edge" xmi:id="_c-qc4ECbEfGLBITVjDn0Ag" type="4001" element="_c-gE1ECbEfGLBITVjDn0Ag" source="_ZmOhcECbEfGLBITVjDn0Ag" target="_c-oAoECbEfGLBITVjDn0Ag">
+          <children xmi:type="notation:Node" xmi:id="_c-qc5ECbEfGLBITVjDn0Ag" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c-qc5UCbEfGLBITVjDn0Ag" x="3" y="-1"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8Gn8hkh0EfGtaomPpWtPEg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Gn8h0h0EfGtaomPpWtPEg" x="-8" y="7"/>
+          <children xmi:type="notation:Node" xmi:id="_c-rD8ECbEfGLBITVjDn0Ag" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c-rD8UCbEfGLBITVjDn0Ag" x="-1"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_8Gn8iEh0EfGtaomPpWtPEg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8Gn8iUh0EfGtaomPpWtPEg" x="-6" y="6"/>
+          <children xmi:type="notation:Node" xmi:id="_c-rrAECbEfGLBITVjDn0Ag" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c-rrAUCbEfGLBITVjDn0Ag" x="-2" y="-1"/>
           </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_8Gn8gUh0EfGtaomPpWtPEg"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_8Gn8gkh0EfGtaomPpWtPEg" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8Gn8g0h0EfGtaomPpWtPEg" points="[165, -164, -46, 45]$[170, -169, -41, 40]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8Gn8ikh0EfGtaomPpWtPEg" id="(0.5,0.5)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8Gn8i0h0EfGtaomPpWtPEg" id="(0.5,0.5)"/>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_c-qc4UCbEfGLBITVjDn0Ag"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_c-qc4kCbEfGLBITVjDn0Ag" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_c-qc40CbEfGLBITVjDn0Ag" points="[25, -99, -16, 60]$[30, -119, -11, 40]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c-s5IECbEfGLBITVjDn0Ag" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c-s5IUCbEfGLBITVjDn0Ag" id="(0.5,0.5)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_M806EEh0EfGtaomPpWtPEg" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_M806EUh0EfGtaomPpWtPEg"/>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_RXy1UEB4EfG_EbYrkoLnzw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_RXy1UUB4EfG_EbYrkoLnzw"/>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_M8XAAEh0EfGtaomPpWtPEg" name="/project" width="8" height="8" resizeKind="NSEW">
-      <target xmi:type="core:Annotation" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@annotations.0"/>
-      <semanticElements xmi:type="core:Annotation" href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@annotations.0"/>
-      <ownedStyle xmi:type="diagram:Note" uid="_M8XnEEh0EfGtaomPpWtPEg" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
-        <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_V5UT8kh0EfGtaomPpWtPEg" name="/" incomingEdges="_V50qQEh0EfGtaomPpWtPEg" width="8" height="8" resizeKind="NSEW">
-      <target xmi:type="core:Annotation" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
-      <semanticElements xmi:type="core:Annotation" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_RW2aIEB4EfG_EbYrkoLnzw" name="«ParameterBindingGroup»" tooltipText="ParameterBindingGroup ">
+      <target xmi:type="core:ParameterBindingGroup" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0/@parameterBindingGroup"/>
+      <semanticElements xmi:type="core:ParameterBindingGroup" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0/@parameterBindingGroup"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:Note" uid="_V5UT80h0EfGtaomPpWtPEg" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
-        <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_RW3BMEB4EfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ParameterBindingGroup']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ParameterBindingGroup']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_RW4PUEB4EfG_EbYrkoLnzw" name="idTask-->idTask">
+        <target xmi:type="core:ParameterBinding" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0/@parameterBindingGroup/@parameterBindings.0"/>
+        <semanticElements xmi:type="core:ParameterBinding" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0/@parameterBindingGroup/@parameterBindings.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_RW4PUUB4EfG_EbYrkoLnzw" labelSize="9" showIcon="false">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ParameterBindingGroup']/@subNodeMappings[name='ParameterBinding']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ParameterBindingGroup']/@subNodeMappings[name='ParameterBinding']"/>
+      </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_8GEi5Eh0EfGtaomPpWtPEg" name="Project" incomingEdges="_8GmHVEh0EfGtaomPpWtPEg" width="8" height="8" resizeKind="NSEW">
-      <target xmi:type="core:Annotation" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@annotations.0"/>
-      <semanticElements xmi:type="core:Annotation" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@annotations.0"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:Note" uid="_8GEi5Uh0EfGtaomPpWtPEg" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
-        <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_QsPLEEh0EfGtaomPpWtPEg" name="[XOR] «ViewContainer» Home" tooltipText="ViewContainer Home" outgoingEdges="_V50qQEh0EfGtaomPpWtPEg" width="30" height="20">
-      <target xmi:type="core:ViewContainer" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
-      <semanticElements xmi:type="core:ViewContainer" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
-      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_QsPLEUh0EfGtaomPpWtPEg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_jYCHoEB4EfG_EbYrkoLnzw" name="[XOR] «ViewContainer» Home" tooltipText="ViewContainer Home" outgoingEdges="_pLCBAEB4EfG_EbYrkoLnzw" width="30" height="20">
+      <target xmi:type="core:ViewContainer" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
+      <semanticElements xmi:type="core:ViewContainer" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_jYCHoUB4EfG_EbYrkoLnzw" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_V50qQEh0EfGtaomPpWtPEg" sourceNode="_QsPLEEh0EfGtaomPpWtPEg" targetNode="_V5UT8kh0EfGtaomPpWtPEg">
-      <target xmi:type="core:ViewContainer" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_V50qQUh0EfGtaomPpWtPEg" targetArrow="NoDecoration" strokeColor="209,209,209">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_t8lEcEB4EfG_EbYrkoLnzw" name="/task" width="8" height="8" resizeKind="NSEW">
+      <target xmi:type="core:Annotation" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@annotations.0"/>
+      <semanticElements xmi:type="core:Annotation" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@annotations.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Note" uid="_t8lEcUB4EfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_AhZDckB5EfG_EbYrkoLnzw" name="/task/tambah" width="8" height="8" resizeKind="NSEW">
+      <target xmi:type="core:Annotation" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@annotations.0"/>
+      <semanticElements xmi:type="core:Annotation" href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@annotations.0"/>
+      <ownedStyle xmi:type="diagram:Note" uid="_AhZqgEB5EfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_pKM6kEB4EfG_EbYrkoLnzw" name="/" incomingEdges="_pLCBAEB4EfG_EbYrkoLnzw" width="8" height="8" resizeKind="NSEW">
+      <target xmi:type="core:Annotation" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
+      <semanticElements xmi:type="core:Annotation" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.0/@annotations.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Note" uid="_pKM6kUB4EfG_EbYrkoLnzw" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_c9le1ECbEfGLBITVjDn0Ag" name="TaskManagement" incomingEdges="_c-gE1ECbEfGLBITVjDn0Ag" width="8" height="8" resizeKind="NSEW">
+      <target xmi:type="core:Annotation" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.1/@annotations.0"/>
+      <semanticElements xmi:type="core:Annotation" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.1/@annotations.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Note" uid="_c9le1UCbEfGLBITVjDn0Ag" labelSize="9" showIcon="false" borderColor="209,209,209" labelPosition="node" color="255,245,181">
+        <description xmi:type="style:NoteDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@nodeMappings[name='Annotation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pLCBAEB4EfG_EbYrkoLnzw" sourceNode="_jYCHoEB4EfG_EbYrkoLnzw" targetNode="_pKM6kEB4EfG_EbYrkoLnzw">
+      <target xmi:type="core:ViewContainer" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pLCoEEB4EfG_EbYrkoLnzw" targetArrow="NoDecoration" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='FromObjectToAnnotation']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_V50qQkh0EfGtaomPpWtPEg"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pLCoEUB4EfG_EbYrkoLnzw"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='FromObjectToAnnotation']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_rllMEEh0EfGtaomPpWtPEg" name=" «IFMLMenu» Project" tooltipText="IFMLMenu Project" outgoingEdges="_8GmHVEh0EfGtaomPpWtPEg" width="30" height="20">
-      <target xmi:type="ext:IFMLMenu" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1"/>
-      <semanticElements xmi:type="ext:IFMLMenu" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_1Rt6MEh0EfGtaomPpWtPEg" name="Project" width="-1" height="-1" resizeKind="NSEW">
-        <target xmi:type="core:ViewElementEvent" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0"/>
-        <semanticElements xmi:type="core:ViewElementEvent" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0"/>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ZjTwUECbEfGLBITVjDn0Ag" name=" «IFMLMenu» Menu" tooltipText="IFMLMenu Menu" outgoingEdges="_c-gE1ECbEfGLBITVjDn0Ag" width="30" height="20">
+      <target xmi:type="ext:IFMLMenu" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.1"/>
+      <semanticElements xmi:type="ext:IFMLMenu" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.1"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_gPWKgECbEfGLBITVjDn0Ag" name="TaskManagement" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="core:ViewElementEvent" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0"/>
+        <semanticElements xmi:type="core:ViewElementEvent" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_1RvIUEh0EfGtaomPpWtPEg" showIcon="false" workspacePath="/IFMLEditorDesign/img/components/ViewElementEvent.png">
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_gPX_sECbEfGLBITVjDn0Ag" showIcon="false" workspacePath="/IFMLEditorDesign/img/components/ViewElementEvent.png">
           <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@borderedNodeMappings[name='ViewElementEvent']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@borderedNodeMappings[name='ViewElementEvent']"/>
@@ -436,23 +1232,23 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_rllzIEh0EfGtaomPpWtPEg" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ZjU-cECbEfGLBITVjDn0Ag" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@containerMappings[name='ViewContainer']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8GmHVEh0EfGtaomPpWtPEg" sourceNode="_rllMEEh0EfGtaomPpWtPEg" targetNode="_8GEi5Eh0EfGtaomPpWtPEg">
-      <target xmi:type="ext:IFMLMenu" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_8GmuYEh0EfGtaomPpWtPEg" targetArrow="NoDecoration" strokeColor="209,209,209">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_c-gE1ECbEfGLBITVjDn0Ag" sourceNode="_ZjTwUECbEfGLBITVjDn0Ag" targetNode="_c9le1ECbEfGLBITVjDn0Ag">
+      <target xmi:type="ext:IFMLMenu" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_c-gr4ECbEfGLBITVjDn0Ag" targetArrow="NoDecoration" strokeColor="209,209,209">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='FromObjectToAnnotation']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_8GmuYUh0EfGtaomPpWtPEg"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_c-gr4UCbEfGLBITVjDn0Ag"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer/@edgeMappings[name='FromObjectToAnnotation']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']"/>
-    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_M74e4Uh0EfGtaomPpWtPEg"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_RVAAAEB4EfG_EbYrkoLnzw"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/IFMLEditorDesign/description/IFML.odesign#//@ownedViewpoints[name='IFML_Core']/@ownedRepresentations[name='IFMLDiagram']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/id.ac.ui.cs.prices.ifmldop.editor.design/description/dop_extension.odesign#//@ownedViewpoints[name='IFML_DOP_Extension']/@ownedRepresentationExtensions[name='IFML%20DOP%20Extension']/@layers[name='DOP%20Layer']"/>
-    <target xmi:type="core:IFMLModel" href="main.core#/"/>
+    <target xmi:type="core:IFMLModel" href="My1.core#/"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
