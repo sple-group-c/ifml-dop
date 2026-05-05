@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_IVdN4EiWEfGoJul5bIxc2g">
+  <interactionFlowModel id="_OHxx0EiWEfGoJul5bIxc2g">
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_OHznAEiWEfGoJul5bIxc2g" name="Reminder">
+      <annotations text="Reminder"/>
+      <viewElementEvents id="_0l7SwEiWEfGoJul5bIxc2g" name="Reminder">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="__QszYEiWEfGoJul5bIxc2g">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_XRXzkEiWEfGoJul5bIxc2g" name="Home" isXOR="true">
+      <annotations text="/"/>
+    </interactionFlowModelElements>
+  </interactionFlowModel>
+  <domainModel id="_IVdN4UiWEfGoJul5bIxc2g">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_IVnl8EiWEfGoJul5bIxc2g" name="ReminderImpl">
+      <classifier xsi:type="uml:Class" href="reminder-dop.uml#_0j7iMEMFEfGhj-SmdQ7qfA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNAEiWEfGoJul5bIxc2g" name="timeTrigger">
+      <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#_u4_jMEMGEfGhj-SmdQ7qfA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNAUiWEfGoJul5bIxc2g" name="idReminder">
+      <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#_uJ_SsEMHEfGhj-SmdQ7qfA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNAkiWEfGoJul5bIxc2g" name="isDisabled">
+      <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#_PtW0UEMLEfGhj-SmdQ7qfA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNA0iWEfGoJul5bIxc2g" name="resendIntervalMin">
+      <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#_WnAMsEMLEfGhj-SmdQ7qfA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_IVoNBEiWEfGoJul5bIxc2g" name="ReminderImpl">
+      <classifier xsi:type="uml:Class" href="reminder-dop.uml#_Ja_zgEMNEfGhj-SmdQ7qfA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNBUiWEfGoJul5bIxc2g" name="reminderimpl">
+      <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#__vds4EMNEfGhj-SmdQ7qfA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_IVoNBkiWEfGoJul5bIxc2g" name="sendInAppReminder">
+      <behavioralFeature xsi:type="uml:Operation" href="reminder-dop.uml#_yzwrcEMNEfGhj-SmdQ7qfA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNB0iWEfGoJul5bIxc2g" name="reminderimpl">
+      <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#__veT8kMNEfGhj-SmdQ7qfA"/>
+    </domainElements>
+  </domainModel>
+</core:IFMLModel>

@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_IAjHIEiREfGoJul5bIxc2g">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_IAjHIEiREfGoJul5bIxc2g">
+  <interactionFlowModel id="__kNXgEiREfGoJul5bIxc2g">
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="__kRB4EiREfGoJul5bIxc2g" name="Reminder">
+      <inputPorts id="_4vnsAEiWEfGoJul5bIxc2g" name="Input Port"/>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_D9ed0EiSEfGoJul5bIxc2g" name="ReminderNotificationPage">
+        <annotations text="/reminder"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <viewElementEvents id="_dEwZYEiUEfGoJul5bIxc2g" name="Tambah Reminder">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_gt8GkEiUEfGoJul5bIxc2g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+        </viewElementEvents>
+        <viewElements xsi:type="ext:List" id="_JdAooEiSEfGoJul5bIxc2g" name="ReminderNotificationTable">
+          <viewComponentParts xsi:type="core:DataBinding" id="_NYb8YEiSEfGoJul5bIxc2g" name="ReminderList">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_X2xjgEiSEfGoJul5bIxc2g" name="timeTrigger" featureConcept="//@domainModel/@domainElements.1"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_pN1V8EiSEfGoJul5bIxc2g" name="isDisabled" featureConcept="//@domainModel/@domainElements.3"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_9t3EcEiSEfGoJul5bIxc2g" name="ReminderFormPage" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/reminer/tambah"/>
+        <viewElements xsi:type="ext:Form" id="_Ih2LcEiTEfGoJul5bIxc2g" name="ReminderForm">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_T_rrQEiUEfGoJul5bIxc2g" name="OnSubmit Event">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_VEW0UEiUEfGoJul5bIxc2g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_OHwEAEiTEfGoJul5bIxc2g" name="resendIntervalMin">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_0c9rYEiTEfGoJul5bIxc2g" name="resendIntervalMin">
+              <annotations text="Required"/>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_NtzdgEiUEfGoJul5bIxc2g" name="Action" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_WkPSsEiUEfGoJul5bIxc2g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
+  </interactionFlowModel>
   <domainModel id="_IAjHIUiREfGoJul5bIxc2g">
     <domainElements xsi:type="core:UMLDomainConcept" id="_IAtfMEiREfGoJul5bIxc2g" name="ReminderImpl">
       <classifier xsi:type="uml:Class" href="reminder-dop.uml#_0j7iMEMFEfGhj-SmdQ7qfA"/>
