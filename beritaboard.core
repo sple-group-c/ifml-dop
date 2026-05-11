@@ -24,12 +24,13 @@
         </viewElements>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_XMQqYEwVEfGOTJld-9QIgw" name="Tambah Berita Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/berita/tambah"/>
         <viewElements xsi:type="ext:Form" id="_an2AcEwVEfGOTJld-9QIgw" name="Tambah Berita">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_3jxEwEw3EfG1qvAbnuoO6w" name="OnSubmit Event">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_5tKaMEw3EfG1qvAbnuoO6w" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="ext:SimpleField" id="_jHtvwEwVEfGOTJld-9QIgw" name="Content">
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_-KjoAEw2EfG1qvAbnuoO6w" name="Slot">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_-KjoAEw2EfG1qvAbnuoO6w" name="content">
               <annotations text="Required"/>
             </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
