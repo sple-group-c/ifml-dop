@@ -6,12 +6,38 @@
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_JPW0sEhyEfGtaomPpWtPEg" name="Table Project Page">
         <annotations text="/project"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <viewElementEvents id="_C8XrUEiAEfGtaomPpWtPEg" name="Tambah Project">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_6V8rQEiDEfGtaomPpWtPEg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+        </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_P98MkEhyEfGtaomPpWtPEg" name="Table Project">
           <viewComponentParts xsi:type="core:DataBinding" id="_cP-l8EhyEfGtaomPpWtPEg" name="List Project" uniformResourceIdentifier="call/project/list">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_zK1_MEhyEfGtaomPpWtPEg" name="Id Project" featureConcept="//@domainModel/@domainElements.1"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_HKhZsEhzEfGtaomPpWtPEg" name="Project Name" featureConcept="//@domainModel/@domainElements.2"/>
           </viewComponentParts>
         </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_vU2HkEh-EfGtaomPpWtPEg" name="Tambah Project Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/project/tambah"/>
+        <viewElements xsi:type="ext:Form" id="_1qT00Eh-EfGtaomPpWtPEg" name="Tambah Project">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_ZvM_YEh_EfGtaomPpWtPEg" name="Kirim">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_q-pi0EzxEfGlw5WE_z6VwQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_9zsWwEh-EfGtaomPpWtPEg" name="Project Name">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_BrKXkEh_EfGtaomPpWtPEg" name="name">
+              <annotations text="Required"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="__X7wsEh-EfGtaomPpWtPEg" name="Project Description">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_FBKDAEh_EfGtaomPpWtPEg" name="description"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_oES1oEh_EfGtaomPpWtPEg" name="Save Project" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <actionEvents id="_wmA_EEh_EfGtaomPpWtPEg">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_sO7e8EzxEfGlw5WE_z6VwQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
   </interactionFlowModel>
