@@ -7,6 +7,9 @@
         <outInteractionFlows xsi:type="core:NavigationFlow" id="__QszYEiWEfGoJul5bIxc2g">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_1OzkUE3_EfGURu9Ap43JdQ">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_XRXzkEiWEfGoJul5bIxc2g" name="Home" isXOR="true">
@@ -15,31 +18,31 @@
   </interactionFlowModel>
   <domainModel id="_IVdN4UiWEfGoJul5bIxc2g">
     <domainElements xsi:type="core:UMLDomainConcept" id="_IVnl8EiWEfGoJul5bIxc2g" name="ReminderImpl">
-      <classifier xsi:type="uml:Class" href="reminder-dop.uml#_0j7iMEMFEfGhj-SmdQ7qfA"/>
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_XQVEQEMQEfGhIbrletiVzQ"/>
     </domainElements>
-    <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNAEiWEfGoJul5bIxc2g" name="timeTrigger">
-      <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#_u4_jMEMGEfGhj-SmdQ7qfA"/>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNAEiWEfGoJul5bIxc2g" name="hour">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_y4HfoEMQEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_MinUtENEiWEfGoJul5bIxc2g" name="minute">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_PoTBkE31EfGjp_15oaDZ5A"/>
     </domainElements>
     <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNAUiWEfGoJul5bIxc2g" name="idReminder">
-      <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#_uJ_SsEMHEfGhj-SmdQ7qfA"/>
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_mUg1IEMQEfGhIbrletiVzQ"/>
     </domainElements>
     <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNAkiWEfGoJul5bIxc2g" name="isDisabled">
-      <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#_PtW0UEMLEfGhj-SmdQ7qfA"/>
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_rJCUEEMQEfGhIbrletiVzQ"/>
     </domainElements>
     <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNA0iWEfGoJul5bIxc2g" name="resendIntervalMin">
-      <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#_WnAMsEMLEfGhj-SmdQ7qfA"/>
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_vKk24EMQEfGhIbrletiVzQ"/>
     </domainElements>
     <domainElements xsi:type="core:UMLDomainConcept" id="_IVoNBEiWEfGoJul5bIxc2g" name="ReminderImpl">
-      <classifier xsi:type="uml:Class" href="reminder-dop.uml#_Ja_zgEMNEfGhj-SmdQ7qfA"/>
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_WFwukEMQEfGhIbrletiVzQ"/>
     </domainElements>
     <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNBUiWEfGoJul5bIxc2g" name="reminderimpl">
-      <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#__vds4EMNEfGhj-SmdQ7qfA"/>
-    </domainElements>
-    <domainElements xsi:type="core:UMLBehavioralFeature" id="_IVoNBkiWEfGoJul5bIxc2g" name="sendInAppReminder">
-      <behavioralFeature xsi:type="uml:Operation" href="reminder-dop.uml#_yzwrcEMNEfGhj-SmdQ7qfA"/>
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_fnEsw0MQEfGhIbrletiVzQ"/>
     </domainElements>
     <domainElements xsi:type="core:UMLStructuralFeature" id="_IVoNB0iWEfGoJul5bIxc2g" name="reminderimpl">
-      <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#__veT8kMNEfGhj-SmdQ7qfA"/>
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_fnF64kMQEfGhIbrletiVzQ"/>
     </domainElements>
   </domainModel>
 </core:IFMLModel>

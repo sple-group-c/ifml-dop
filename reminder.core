@@ -5,22 +5,29 @@
       <inputPorts id="_4vnsAEiWEfGoJul5bIxc2g" name="Input Port"/>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_D9ed0EiSEfGoJul5bIxc2g" name="ReminderNotificationPage">
         <annotations text="/reminder"/>
-        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@viewElementEvents.0/@outInteractionFlows.1"/>
         <viewElementEvents id="_dEwZYEiUEfGoJul5bIxc2g" name="Tambah Reminder">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_gt8GkEiUEfGoJul5bIxc2g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_JdAooEiSEfGoJul5bIxc2g" name="ReminderNotificationTable">
-          <viewComponentParts xsi:type="core:DataBinding" id="_NYb8YEiSEfGoJul5bIxc2g" name="ReminderList">
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_X2xjgEiSEfGoJul5bIxc2g" name="timeTrigger" featureConcept="//@domainModel/@domainElements.1"/>
+          <viewComponentParts xsi:type="core:DataBinding" id="_NYb8YEiSEfGoJul5bIxc2g" name="ReminderList" uniformResourceIdentifier="call/reminder/list">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_X2xjgEiSEfGoJul5bIxc2g" name="hour">
+              <featureConcept href="main.core#//@domainModel/@domainElements.1"/>
+            </subViewComponentParts>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_pN1V8EiSEfGoJul5bIxc2g" name="isDisabled" featureConcept="//@domainModel/@domainElements.3"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_uMA7ME34EfGjp_15oaDZ5A" name="minute">
+              <featureConcept href="main.core#//@domainModel/@domainElements.2"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_zk65kE34EfGjp_15oaDZ5A" name="Reminder Id" featureConcept="//@domainModel/@domainElements.2"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_9t3EcEiSEfGoJul5bIxc2g" name="ReminderFormPage" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
-        <annotations text="/reminer/tambah"/>
+        <annotations text="/reminder/tambah"/>
         <viewElements xsi:type="ext:Form" id="_Ih2LcEiTEfGoJul5bIxc2g" name="ReminderForm">
-          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_T_rrQEiUEfGoJul5bIxc2g" name="OnSubmit Event">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_T_rrQEiUEfGoJul5bIxc2g" name="Save">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_VEW0UEiUEfGoJul5bIxc2g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="ext:SimpleField" id="_OHwEAEiTEfGoJul5bIxc2g" name="resendIntervalMin">
@@ -30,10 +37,25 @@
             </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
           </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_EAjwIE36EfGjp_15oaDZ5A" name="Hour">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_M0UEwE36EfGjp_15oaDZ5A" name="Hour">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_ZdB4wE36EfGjp_15oaDZ5A" name="Minute">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_w1yH4E36EfGjp_15oaDZ5A" name="Minute">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </subViewComponentParts>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_NtzdgEiUEfGoJul5bIxc2g" name="Action" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_WkPSsEiUEfGoJul5bIxc2g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_NtzdgEiUEfGoJul5bIxc2g" name="Save Reminder" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <actionEvents id="_0KNigE35EfGjp_15oaDZ5A">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_WkPSsEiUEfGoJul5bIxc2g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
   </interactionFlowModel>
