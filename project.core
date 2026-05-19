@@ -7,11 +7,19 @@
         <annotations text="/project"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
-        <viewElementEvents id="_C8XrUEiAEfGtaomPpWtPEg" name="Tambah Project">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_6V8rQEiDEfGtaomPpWtPEg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+        <viewElementEvents id="_rItS8FJxEfGo280AeBDPFw" name="Add Project">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_uduuAFJxEfGo280AeBDPFw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_P98MkEhyEfGtaomPpWtPEg" name="Table Project">
+          <viewElementEvents id="_u5JMwFJzEfGo280AeBDPFw" name="Detail">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_1KPXYFJzEfGo280AeBDPFw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
+              <parameterBindingGroup id="_Yoc8cFJ0EfGo280AeBDPFw">
+                <parameterBindings id="_80qP8FJ0EfGo280AeBDPFw" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
+              </parameterBindingGroup>
+            </outInteractionFlows>
+          </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_cP-l8EhyEfGtaomPpWtPEg" name="List Project" uniformResourceIdentifier="call/project/list">
+            <parameters id="_ky4j4FJyEfGo280AeBDPFw" name="idProject" direction="out"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_zK1_MEhyEfGtaomPpWtPEg" name="Id Project" featureConcept="//@domainModel/@domainElements.1"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_HKhZsEhzEfGtaomPpWtPEg" name="Project Name" featureConcept="//@domainModel/@domainElements.2"/>
           </viewComponentParts>
@@ -20,24 +28,32 @@
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_vU2HkEh-EfGtaomPpWtPEg" name="Tambah Project Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="/project/tambah"/>
         <viewElements xsi:type="ext:Form" id="_1qT00Eh-EfGtaomPpWtPEg" name="Tambah Project">
-          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_ZvM_YEh_EfGtaomPpWtPEg" name="Kirim">
-            <outInteractionFlows xsi:type="core:NavigationFlow" id="_q-pi0EzxEfGlw5WE_z6VwQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_S6UcUFJxEfGo280AeBDPFw" name="Save">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_eXN9cFJxEfGo280AeBDPFw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="ext:SimpleField" id="_9zsWwEh-EfGtaomPpWtPEg" name="Project Name">
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_BrKXkEh_EfGtaomPpWtPEg" name="name">
-              <annotations text="Required"/>
-            </subViewComponentParts>
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_BrKXkEh_EfGtaomPpWtPEg" name="name"/>
           </viewComponentParts>
           <viewComponentParts xsi:type="ext:SimpleField" id="__X7wsEh-EfGtaomPpWtPEg" name="Project Description">
             <subViewComponentParts xsi:type="ext:IFMLSlot" id="_FBKDAEh_EfGtaomPpWtPEg" name="description"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
-      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_oES1oEh_EfGtaomPpWtPEg" name="Save Project" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_WZqRAFJxEfGo280AeBDPFw" name="Save Project" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="POST"/>
-        <actionEvents id="_wmA_EEh_EfGtaomPpWtPEg">
-          <outInteractionFlows xsi:type="core:NavigationFlow" id="_sO7e8EzxEfGlw5WE_z6VwQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        <actionEvents id="_lvNesFJxEfGo280AeBDPFw">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_XbYBIFJ7EfGo280AeBDPFw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_x8svQFJxEfGo280AeBDPFw" name="Detail Project Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/project/:idProject"/>
+        <viewElements xsi:type="ext:Details" id="_4LhB8FJxEfGo280AeBDPFw" name="Detail Project">
+          <viewComponentParts xsi:type="core:DataBinding" id="_PRVG8FJyEfGo280AeBDPFw" name="Detail Project" uniformResourceIdentifier="call/project/detail">
+            <parameters id="_A2YD0FJzEfGo280AeBDPFw" name="idProject"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_SqA6AFJyEfGo280AeBDPFw" name="Project Name" featureConcept="//@domainModel/@domainElements.2"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_X6Tu8FJyEfGo280AeBDPFw" name="Project Description" featureConcept="//@domainModel/@domainElements.3"/>
+          </viewComponentParts>
+        </viewElements>
       </interactionFlowModelElement>
     </interactionFlowModelElements>
   </interactionFlowModel>

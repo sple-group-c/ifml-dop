@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_F1QuwFJqEfGo280AeBDPFw">
+  <interactionFlowModel id="_zRNS0FJrEfGo280AeBDPFw">
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_zRRkQFJrEfGo280AeBDPFw" name="Task">
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_sQd-gFJsEfGo280AeBDPFw" name="Task Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0">
+        <viewElements xsi:type="ext:List" id="_v_OIMFJsEfGo280AeBDPFw" name="Task">
+          <viewComponentParts xsi:type="core:DataBinding" id="_6XC3oFJsEfGo280AeBDPFw" name="List Task">
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_A6170FJtEfGo280AeBDPFw" name="idTask"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_Cq-csFJtEfGo280AeBDPFw" name="name"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_HALF4FJuEfGo280AeBDPFw" name="Add Task Page">
+        <annotations text="/task/tambah"/>
+        <viewElements xsi:type="ext:Form" id="_KZjcgFJuEfGo280AeBDPFw" name="Add Task">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_9HdCYFJvEfGo280AeBDPFw" name="Save">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_GN0J8FJwEfGo280AeBDPFw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_PbfFUFJuEfGo280AeBDPFw" name="Name">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_TlJpYFJuEfGo280AeBDPFw" name="name"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_DdfXYFJwEfGo280AeBDPFw" name="Save Task" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <actionEvents id="_R7c1wFJwEfGo280AeBDPFw">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_UtpQkFJwEfGo280AeBDPFw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
+  </interactionFlowModel>
+  <domainModel id="_F1QuwVJqEfGo280AeBDPFw">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_F1YqkFJqEfGo280AeBDPFw" name="ProjectManagementImpl">
+      <classifier xsi:type="uml:Class" href="../benerin-assoc/benerin-assoc.uml#_VsmyEEo_EfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRoFJqEfGo280AeBDPFw" name="idProject">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_Xm4tcEo_EfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRoVJqEfGo280AeBDPFw" name="name">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_ngEzsEo_EfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRolJqEfGo280AeBDPFw" name="description">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_t4NacEo_EfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_F1ZRo1JqEfGo280AeBDPFw" name="ProjectManagementImpl">
+      <classifier xsi:type="uml:Class" href="../benerin-assoc/benerin-assoc.uml#_Jc2bMEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRpFJqEfGo280AeBDPFw" name="owner">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_Np4cUEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRpVJqEfGo280AeBDPFw" name="projectmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_VwSiwEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_F1ZRplJqEfGo280AeBDPFw" name="TaskManagementImpl">
+      <classifier xsi:type="uml:Class" href="../benerin-assoc/benerin-assoc.uml#_fuFooEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRp1JqEfGo280AeBDPFw" name="idTask">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_jClfQEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRqFJqEfGo280AeBDPFw" name="name">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_ozMzAEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRqVJqEfGo280AeBDPFw" name="projectmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_qJE64E6gEfGZIZBM0uij1Q"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_F1ZRqlJqEfGo280AeBDPFw" name="TaskManagementImpl">
+      <classifier xsi:type="uml:Class" href="../benerin-assoc/benerin-assoc.uml#_7UWaAEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRq1JqEfGo280AeBDPFw" name="deskripsi">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_9VytUEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRrFJqEfGo280AeBDPFw" name="taskmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_Elvs4EpBEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRrVJqEfGo280AeBDPFw" name="projectmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_VwTJ0UpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRrlJqEfGo280AeBDPFw" name="taskmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_El0lYEpBEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_F1ZRr1JqEfGo280AeBDPFw" name="taskmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="../benerin-assoc/benerin-assoc.uml#_qJGJAk6gEfGZIZBM0uij1Q"/>
+    </domainElements>
+  </domainModel>
+</core:IFMLModel>

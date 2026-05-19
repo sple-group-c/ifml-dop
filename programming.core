@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_ZSVXIFNJEfGNBduOAnvApA">
+  <interactionFlowModel id="_fg9ckFNJEfGNBduOAnvApA">
+    <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_fhAf4FNJEfGNBduOAnvApA" name="ProgrammingProject">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_lFk7sFNJEfGNBduOAnvApA" name="Table ProgrammingProject Page">
+        <annotations text="/programmingproject"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.2/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="dop-extension:ModifiedNavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_HY590FNREfGIZfuhTE_CHA" name="Add ProgrammingProject">
+          <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_NeNvMFNREfGIZfuhTE_CHA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+          <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0"/>
+        </viewElementEvents>
+        <viewElements xsi:type="dop-extension:ModifiedList" id="_ugzgAFNJEfGNBduOAnvApA" name="Table ProgrammingProject">
+          <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_fMIeQFNYEfGIZfuhTE_CHA" name="Detail">
+            <outInteractionFlows xsi:type="dop-extension:ModifiedNavigationFlow" id="_3u3NMFNYEfGIZfuhTE_CHA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
+              <parameterBindingGroup id="__l4z0FNYEfGIZfuhTE_CHA">
+                <parameterBindings id="_fl07MFNZEfGIZfuhTE_CHA" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@parameters.0"/>
+              </parameterBindingGroup>
+              <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
+            </outInteractionFlows>
+            <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_yLzyIFNJEfGNBduOAnvApA" name="List ProgrammingProject" uniformResourceIdentifier="call/programmingproject/list">
+            <parameters id="_kl-bUFNZEfGIZfuhTE_CHA" name="idProject" direction="out"/>
+            <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
+          </viewComponentParts>
+          <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
+        </viewElements>
+        <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_-RrlgFNOEfGIZfuhTE_CHA" name="Tambah ProgrammingProject Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/programmingproject/tambah"/>
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_J1JBoFNPEfGIZfuhTE_CHA" name="Tambah ProgrammingProject">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_eKLWMFNREfGIZfuhTE_CHA" name="Kirim">
+            <outInteractionFlows xsi:type="dop-extension:AddedNavigationFlow" id="_x2GHMFNREfGIZfuhTE_CHA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_PLY4IFNQEfGIZfuhTE_CHA" name="Repository Provider">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_VZQvoFNQEfGIZfuhTE_CHA" name="onlineRepository">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_o-qB4FNQEfGIZfuhTE_CHA" name="Repository Link">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_wBucAFNQEfGIZfuhTE_CHA" name="repositoryLink">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_pZQTMFNQEfGIZfuhTE_CHA" name="Default Branch">
+            <subViewComponentParts xsi:type="dop-extension:AddedSlot" id="_7uAc8FNQEfGIZfuhTE_CHA" name="defaultBranch">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EString"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+          <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0"/>
+        </viewElements>
+        <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedAction" id="_h4pzEFNREfGIZfuhTE_CHA" name="Save ProgrammingProject" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <actionEvents xsi:type="dop-extension:ModifiedActionEvent" id="_1FgpgFNREfGIZfuhTE_CHA" name="ModifiedActionEvent">
+          <outInteractionFlows xsi:type="dop-extension:ModifiedNavigationFlow" id="_5VTqwFNREfGIZfuhTE_CHA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0">
+            <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+          </outInteractionFlows>
+        </actionEvents>
+        <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_E2QzMFNXEfGIZfuhTE_CHA" name="Detail ProjectProgramming Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <viewElements xsi:type="dop-extension:AddedDetail" id="_Nh4fgFNXEfGIZfuhTE_CHA" name="Detail ProjectProgramming">
+          <parameters id="_TYxvgFNZEfGIZfuhTE_CHA" name="idProject"/>
+          <viewComponentParts xsi:type="dop-extension:AddedDataBinding" id="_7fcYUFNXEfGIZfuhTE_CHA" name="Detail ProjectProgramming " uniformResourceIdentifier="call/projectprogramming/detail">
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_N5n0oFNYEfGIZfuhTE_CHA" name="Online Repository" featureConcept="//@domainModel/@domainElements.5"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_UIqJwFNYEfGIZfuhTE_CHA" name="Repository Link" featureConcept="//@domainModel/@domainElements.8"/>
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_Yvz7EFNYEfGIZfuhTE_CHA" name="Default Branch" featureConcept="//@domainModel/@domainElements.7"/>
+          </viewComponentParts>
+        </viewElements>
+        <modifies href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
+      </interactionFlowModelElement>
+      <uses href="project.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
+    </interactionFlowModelElements>
+  </interactionFlowModel>
+  <domainModel id="_ZSVXIVNJEfGNBduOAnvApA">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_ZSd6AFNJEfGNBduOAnvApA" name="ProjectImpl">
+      <classifier xsi:type="uml:Class" href="sple-proyek.uml#_VsmyEEo_EfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehEFNJEfGNBduOAnvApA" name="idProject">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_Xm4tcEo_EfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehEVNJEfGNBduOAnvApA" name="name">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_ngEzsEo_EfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehElNJEfGNBduOAnvApA" name="description">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_t4NacEo_EfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_ZSehE1NJEfGNBduOAnvApA" name="ProjectImpl">
+      <classifier xsi:type="uml:Class" href="sple-proyek.uml#_Jc2bMEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehFFNJEfGNBduOAnvApA" name="onlineRepository">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_Np4cUEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehFVNJEfGNBduOAnvApA" name="projectimpl">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_HOSEclKcEfGo280AeBDPFw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehFlNJEfGNBduOAnvApA" name="defaultBranch">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_jjGfUFMoEfGSTrW9xqPkHw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehF1NJEfGNBduOAnvApA" name="repositoryLink">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_cUcSsFNIEfGNBduOAnvApA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_ZSehGFNJEfGNBduOAnvApA" name="TaskImpl">
+      <classifier xsi:type="uml:Class" href="sple-proyek.uml#_fuFooEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehGVNJEfGNBduOAnvApA" name="idTask">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_jClfQEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehGlNJEfGNBduOAnvApA" name="name">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_ozMzAEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehG1NJEfGNBduOAnvApA" name="projectimpl">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_67gEMVKbEfGo280AeBDPFw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_ZSehHFNJEfGNBduOAnvApA" name="TaskImpl">
+      <classifier xsi:type="uml:Class" href="sple-proyek.uml#_7UWaAEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehHVNJEfGNBduOAnvApA" name="deskripsi">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_9VytUEpAEfGaiN0ITRmUUA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehHlNJEfGNBduOAnvApA" name="taskimpl">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_P2XUklKcEfGo280AeBDPFw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehH1NJEfGNBduOAnvApA" name="taskimpl">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_67grQlKbEfGo280AeBDPFw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehIFNJEfGNBduOAnvApA" name="projectimpl">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_HOSrglKcEfGo280AeBDPFw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_ZSehIVNJEfGNBduOAnvApA" name="taskimpl">
+      <structuralFeature xsi:type="uml:Property" href="sple-proyek.uml#_P2X7oVKcEfGo280AeBDPFw"/>
+    </domainElements>
+  </domainModel>
+</core:IFMLModel>
