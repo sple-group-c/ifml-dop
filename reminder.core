@@ -30,13 +30,6 @@
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_T_rrQEiUEfGoJul5bIxc2g" name="Save">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_VEW0UEiUEfGoJul5bIxc2g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
-          <viewComponentParts xsi:type="ext:SimpleField" id="_OHwEAEiTEfGoJul5bIxc2g" name="resendIntervalMin">
-            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_0c9rYEiTEfGoJul5bIxc2g" name="resendIntervalMin">
-              <annotations text="Required"/>
-              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-            </subViewComponentParts>
-            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-          </viewComponentParts>
           <viewComponentParts xsi:type="ext:SimpleField" id="_EAjwIE36EfGjp_15oaDZ5A" name="Hour">
             <subViewComponentParts xsi:type="ext:IFMLSlot" id="_M0UEwE36EfGjp_15oaDZ5A" name="Hour">
               <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
@@ -48,6 +41,14 @@
               <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
             </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="core:DataBinding" id="_ryXPEFOREfGQ-8j_E_-Z9A" name="Task List" uniformResourceIdentifier="call/taskmanagement/list">
+            <subViewComponentParts xsi:type="ext:SelectionField" id="_yoTzMFOREfGQ-8j_E_-Z9A" name="remindingForId">
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_N9BhkFOSEfGQ-8j_E_-Z9A" name="remindingForId">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
@@ -88,4 +89,5 @@
       <structuralFeature xsi:type="uml:Property" href="reminder-dop.uml#__veT8kMNEfGhj-SmdQ7qfA"/>
     </domainElements>
   </domainModel>
+  <interactionFlowModelViewpoint id="_-iCG1VJrEfGbkPugi-GtMg"/>
 </core:IFMLModel>
