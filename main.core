@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_JQOUEEn2EfGOTJld-9QIgw">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_JQOUEEn2EfGOTJld-9QIgw">
   <interactionFlowModel id="_fhQGIEn2EfGOTJld-9QIgw">
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_fh18AEn2EfGOTJld-9QIgw" name="Home" isXOR="true">
       <annotations text="/"/>
@@ -9,6 +9,13 @@
       <viewElementEvents id="_a9hT4EoEEfGOTJld-9QIgw" name="BeritaBoard">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_V5-IMEoJEfGOTJld-9QIgw">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="beritaboard.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_iSyvYE6FEfGbOIeRJnrmGw" name="Subscription">
+      <viewElementEvents id="_tjavEE6FEfGbOIeRJnrmGw" name="Subscription">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_wOt3sE6FEfGbOIeRJnrmGw">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="deltaberita.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>

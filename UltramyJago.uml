@@ -17,9 +17,12 @@
           <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_yZCw8EHyEfGVkPM0FobjkQ" client="_QuLY0EHyEfGVkPM0FobjkQ" supplier="_KzaqkEHyEfGVkPM0FobjkQ" contract="_KzaqkEHyEfGVkPM0FobjkQ"/>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_HALZ8EIoEfGjcr_fAw5DGQ" name="DFansramy">
+      <packagedElement xmi:type="uml:Package" xmi:id="_HALZ8EIoEfGjcr_fAw5DGQ" name="DSubscription">
         <packagedElement xmi:type="uml:Class" xmi:id="_SrbgIEIoEfGjcr_fAw5DGQ" name="BeritaBoardImpl">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_e-FkkkIoEfGjcr_fAw5DGQ" name="beritaboardimpl" type="_QuLY0EHyEfGVkPM0FobjkQ" association="_e-EWcEIoEfGjcr_fAw5DGQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_s4YqsFOLEfGOn6IXmPZVRA" name="subscription" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
         </packagedElement>
       </packagedElement>
     </packagedElement>
@@ -231,4 +234,5 @@
   <umlvmprofile:pk xmi:id="_daICIEMSEfGhIbrletiVzQ" base_Property="_Y31_MEMREfGhIbrletiVzQ"/>
   <umlvmprofile:pk xmi:id="_fV-q0EMSEfGhIbrletiVzQ" base_Property="_mUg1IEMQEfGhIbrletiVzQ"/>
   <umlvmprofile:modifies xmi:id="_ppIVoEMSEfGhIbrletiVzQ" base_Association="_dEdbgEMPEfGhIbrletiVzQ"/>
+  <umlvmprofile:adds xmi:id="_1KtGMFOLEfGOn6IXmPZVRA" base_Property="_s4YqsFOLEfGOn6IXmPZVRA"/>
 </xmi:XMI>

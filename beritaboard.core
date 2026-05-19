@@ -196,4 +196,5 @@
       <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_K6Fq4kMREfGhIbrletiVzQ"/>
     </domainElements>
   </domainModel>
+  <interactionFlowModelViewpoint id="_-G64JVJrEfGVqMbXMzTU7w" name="saveBeritaBoard"/>
 </core:IFMLModel>
