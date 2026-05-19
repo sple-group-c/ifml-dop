@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_pR5S4FOQEfGZk5RJ05ZstQ">
+  <interactionFlowModel id="_9B5AsFOSEfGQb_Xt5epBFQ">
+    <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_9CSpUFOSEfGQb_Xt5epBFQ" name="Coba">
+      <inputPorts id="_vXWCoFOaEfGQb_Xt5epBFQ" name="Input Port"/>
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_FstbwFOTEfGQb_Xt5epBFQ" name="Table Coba Page">
+        <annotations text="/coba"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="My1.core#//@interactionFlowModel/@interactionFlowModelElements.2/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <viewElements xsi:type="dop-extension:ModifiedList" id="_OErzUFOTEfGQb_Xt5epBFQ" name="Table Coba">
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_SFNCcFOTEfGQb_Xt5epBFQ" name="List Coba">
+            <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_XMS4EFOTEfGQb_Xt5epBFQ" name="Deadline" featureConcept="//@domainModel/@domainElements.7"/>
+            <modifies href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
+          </viewComponentParts>
+          <modifies href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
+        </viewElements>
+        <modifies href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+      </interactionFlowModelElement>
+      <uses href="My.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
+    </interactionFlowModelElements>
+  </interactionFlowModel>
+  <domainModel id="_pR5S4VOQEfGZk5RJ05ZstQ">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pSS7gFOQEfGZk5RJ05ZstQ" name="TaskManagementImpl">
+      <classifier xsi:type="uml:Class" href="../TAW2RAMY/TAW2RAMY.uml#_7igR8EBUEfG_EbYrkoLnzw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pSUJoFOQEfGZk5RJ05ZstQ" name="idTask">
+      <structuralFeature xsi:type="uml:Property" href="../TAW2RAMY/TAW2RAMY.uml#_MHV9QEBVEfG_EbYrkoLnzw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pSUJoVOQEfGZk5RJ05ZstQ" name="title">
+      <structuralFeature xsi:type="uml:Property" href="../TAW2RAMY/TAW2RAMY.uml#_iSr-EEBVEfG_EbYrkoLnzw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pSUJolOQEfGZk5RJ05ZstQ" name="description">
+      <structuralFeature xsi:type="uml:Property" href="../TAW2RAMY/TAW2RAMY.uml#_ldjXkEBVEfG_EbYrkoLnzw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pSUJo1OQEfGZk5RJ05ZstQ" name="status">
+      <structuralFeature xsi:type="uml:Property" href="../TAW2RAMY/TAW2RAMY.uml#_qi9yMEBVEfG_EbYrkoLnzw"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_pSUJpFOQEfGZk5RJ05ZstQ" name="TaskManagementImpl">
+      <classifier xsi:type="uml:Class" href="../TAW2RAMY/TAW2RAMY.uml#_KjyVgEImEfGjcr_fAw5DGQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pSUJpVOQEfGZk5RJ05ZstQ" name="taskmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="../TAW2RAMY/TAW2RAMY.uml#_U95j8EImEfGjcr_fAw5DGQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pSUJplOQEfGZk5RJ05ZstQ" name="Deadline">
+      <structuralFeature xsi:type="uml:Property" href="../TAW2RAMY/TAW2RAMY.uml#_U-AYYFOPEfGZk5RJ05ZstQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_pSUJp1OQEfGZk5RJ05ZstQ" name="taskmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="../TAW2RAMY/TAW2RAMY.uml#_U-GYQEImEfGjcr_fAw5DGQ"/>
+    </domainElements>
+  </domainModel>
+</core:IFMLModel>
