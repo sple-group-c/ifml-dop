@@ -12,13 +12,14 @@
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_Rv-hMEiOEfGg0fy8ktMBQg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_zu0soEiLEfGg0fy8ktMBQg" name="TableLabel">
-          <viewComponentParts xsi:type="core:DataBinding" id="_3tzDoEiLEfGg0fy8ktMBQg" name="List Label" uniformResourceIdentifier="/call/label/list">
+          <viewComponentParts xsi:type="core:DataBinding" id="_3tzDoEiLEfGg0fy8ktMBQg" name="List Label" uniformResourceIdentifier="call/label/list">
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_97vMkEiLEfGg0fy8ktMBQg" name="name" featureConcept="//@domainModel/@domainElements.40"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_CFnMAEiMEfGg0fy8ktMBQg" name="description" featureConcept="//@domainModel/@domainElements.41"/>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_QBAv4EiMEfGg0fy8ktMBQg" name="Form Label" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/label/tambah"/>
         <viewElements xsi:type="ext:Form" id="_Uu5bUEiMEfGg0fy8ktMBQg" name="Form">
           <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_rnS58EiNEfGg0fy8ktMBQg" name="OnSubmit Event">
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_zyc9gEiNEfGg0fy8ktMBQg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>

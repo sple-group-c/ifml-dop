@@ -6,7 +6,7 @@
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_l_fSAEiPEfGg0fy8ktMBQg" name="Label">
       <annotations text="Label"/>
-      <viewElementEvents id="_ObY5EEiQEfGg0fy8ktMBQg" name="ViewElement Event">
+      <viewElementEvents id="_ObY5EEiQEfGg0fy8ktMBQg" name="Tambah Label">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_V9TyYEiQEfGg0fy8ktMBQg">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="label.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
