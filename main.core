@@ -4,13 +4,10 @@
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_tI08IEijEfGhM6nzK_aTWg" name="Home" isXOR="true">
       <annotations text="/"/>
     </interactionFlowModelElements>
-    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_eLBjQEinEfGxqeVzQwlhJA" name="MeetingManagement">
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_vmr9MF3BEfGeYpC3L6mbEw" name="MeetingManagement">
       <annotations text="MeetingManagement"/>
-      <viewElementEvents id="_rd6VoEinEfGxqeVzQwlhJA" name="MeetingManagement">
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_zjcSUEinEfGxqeVzQwlhJA">
-          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="meeting.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
-        </outInteractionFlows>
-        <outInteractionFlows xsi:type="core:NavigationFlow" id="_-pL3sEinEfGxqeVzQwlhJA">
+      <viewElementEvents id="_4UqZ8F3BEfGeYpC3L6mbEw" name="MeetingManagement">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_5wPnIF3BEfGeYpC3L6mbEw">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="meeting.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
