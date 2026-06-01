@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_v6UGoF17EfGZyZcHNmogjQ">
+  <interactionFlowModel id="_0CW6EF17EfGZyZcHNmogjQ">
+    <interactionFlowModelElements xsi:type="core:ModuleDefinition" id="_0CmKoF17EfGZyZcHNmogjQ" name="Project">
+      <inputPorts id="_hdiekF18EfGZyZcHNmogjQ" name="Input Port"/>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_2poeUF17EfGZyZcHNmogjQ" name="Table Project Page">
+        <annotations text="/project"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <viewElementEvents id="_emrJsF19EfGZyZcHNmogjQ" name="Add Project">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_hBCTUF19EfGZyZcHNmogjQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
+        </viewElementEvents>
+        <viewElements xsi:type="ext:List" id="__ZS9IF17EfGZyZcHNmogjQ" name="Table Project">
+          <viewElementEvents id="_O0fN4F1-EfGZyZcHNmogjQ" name="Detail">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_RuIUgF1-EfGZyZcHNmogjQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
+              <parameterBindingGroup id="_SXFK4F1-EfGZyZcHNmogjQ">
+                <parameterBindings id="_UJm4cF1-EfGZyZcHNmogjQ" sourceParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0/@parameters.0" targetParameter="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.0/@parameters.0"/>
+              </parameterBindingGroup>
+            </outInteractionFlows>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="core:DataBinding" id="_C8k2oF18EfGZyZcHNmogjQ" name="List Project" uniformResourceIdentifier="call/project/list">
+            <parameters id="_b3_yYF18EfGZyZcHNmogjQ" name="idProject" direction="out"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_RbLOMF18EfGZyZcHNmogjQ" name="idProject">
+              <featureConcept href="main.core#//@domainModel/@domainElements.15"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_VVEQ4F18EfGZyZcHNmogjQ" name="name">
+              <featureConcept href="main.core#//@domainModel/@domainElements.25"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_j60ZUF18EfGZyZcHNmogjQ" name="Add Project Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/project/tambah"/>
+        <viewElements xsi:type="ext:Form" id="_xtL9AF18EfGZyZcHNmogjQ" name="Add Project">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_RmBW0F19EfGZyZcHNmogjQ" name="Save">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_apVKYF19EfGZyZcHNmogjQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_2Q-RQF18EfGZyZcHNmogjQ" name="Project Name">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_EqxBUF19EfGZyZcHNmogjQ" name="name"/>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+          <viewComponentParts xsi:type="ext:SimpleField" id="_3tGRAF18EfGZyZcHNmogjQ" name="Project Description">
+            <subViewComponentParts xsi:type="ext:IFMLSlot" id="_HaQtcF19EfGZyZcHNmogjQ" name="description"/>
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_TUu7YF19EfGZyZcHNmogjQ" name="Save Project" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <actionEvents id="_ZIKSkF19EfGZyZcHNmogjQ">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_dj_ksF19EfGZyZcHNmogjQ" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_k8DXYF19EfGZyZcHNmogjQ" name="Detail Project Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/project/:idProject"/>
+        <viewElements xsi:type="ext:Details" id="_sRNAAF19EfGZyZcHNmogjQ" name="Detail Project">
+          <viewComponentParts xsi:type="core:DataBinding" id="_vwJMEF19EfGZyZcHNmogjQ" name="Detail Project" uniformResourceIdentifier="call/project/detail">
+            <parameters id="__fQJQF19EfGZyZcHNmogjQ" name="idProject"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_4I7b8F19EfGZyZcHNmogjQ" name="description">
+              <featureConcept href="programmingproject.core#//@domainModel/@domainElements.9"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_9XDtsF19EfGZyZcHNmogjQ" name="name">
+              <featureConcept href="main.core#//@domainModel/@domainElements.25"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+    </interactionFlowModelElements>
+  </interactionFlowModel>
+  <domainModel id="_v6UGoV17EfGZyZcHNmogjQ">
+    <domainElements xsi:type="core:UMLDomainConcept" id="_v6ZmMF17EfGZyZcHNmogjQ" name="BeritaBoardImpl">
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_QuLY0EHyEfGVkPM0FobjkQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNQF17EfGZyZcHNmogjQ" name="beritaid">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_TftsUEHyEfGVkPM0FobjkQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNQV17EfGZyZcHNmogjQ" name="content">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_bBusQEHyEfGVkPM0FobjkQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_v6aNQl17EfGZyZcHNmogjQ" name="BeritaBoardImpl">
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_SrbgIEIoEfGjcr_fAw5DGQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNQ117EfGZyZcHNmogjQ" name="beritaboardimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_e-FkkkIoEfGjcr_fAw5DGQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNRF17EfGZyZcHNmogjQ" name="beritaboardimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_e-GLokIoEfGjcr_fAw5DGQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_v6aNRV17EfGZyZcHNmogjQ" name="TaskManagementImpl">
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_rYwWoEMGEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNRl17EfGZyZcHNmogjQ" name="idTask">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_U1S7UEMHEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNR117EfGZyZcHNmogjQ" name="title">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_ajtPoEMHEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNSF17EfGZyZcHNmogjQ" name="description">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_gEQuIEMHEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNSV17EfGZyZcHNmogjQ" name="status">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_jpZBwEMHEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_v6aNSl17EfGZyZcHNmogjQ" name="TaskManagementImpl">
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_BIic0EMHEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNS117EfGZyZcHNmogjQ" name="deadline">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#__USRYF1nEfG4iJ5hwOpm7w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNTF17EfGZyZcHNmogjQ" name="taskmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_FsZC8l1oEfG4iJ5hwOpm7w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_v6aNTV17EfGZyZcHNmogjQ" name="ProjectImpl">
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_JGXHoEMKEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNTl17EfGZyZcHNmogjQ" name="idProject">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_Q0IroEMKEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNT117EfGZyZcHNmogjQ" name="name">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_Zs5cEEMKEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNUF17EfGZyZcHNmogjQ" name="description">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_dhUv8EMKEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_v6aNUV17EfGZyZcHNmogjQ" name="ProjectImpl">
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_YBDv4EMLEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNUl17EfGZyZcHNmogjQ" name="onlineRepository">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_IF9X0F1nEfG4iJ5hwOpm7w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNU117EfGZyZcHNmogjQ" name="defaultBranch">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_NQ2vYF1nEfG4iJ5hwOpm7w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNVF17EfGZyZcHNmogjQ" name="repositoryLink">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_UBjnIF1nEfG4iJ5hwOpm7w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNVV17EfGZyZcHNmogjQ" name="projectimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_bMm4kF1nEfG4iJ5hwOpm7w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_v6aNVl17EfGZyZcHNmogjQ" name="MeetingManagementImpl">
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_LJDl4EMPEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNV117EfGZyZcHNmogjQ" name="idMeeting">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_pY_IMEMPEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNWF17EfGZyZcHNmogjQ" name="name">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_4EQCwEMPEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNWV17EfGZyZcHNmogjQ" name="startDate">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_977n0EMPEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNWl17EfGZyZcHNmogjQ" name="endDate">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_B6iLYEMQEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNW117EfGZyZcHNmogjQ" name="location">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_FCmvkEMQEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_v6aNXF17EfGZyZcHNmogjQ" name="MeetingManagementImpl">
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_S33rsEMPEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNXV17EfGZyZcHNmogjQ" name="meetingmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_dEeCkkMPEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNXl17EfGZyZcHNmogjQ" name="project">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_zvNbYFNFEfGdGc8aEGdmlA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNX117EfGZyZcHNmogjQ" name="Project">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_ALWL8lNGEfGdGc8aEGdmlA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNYF17EfGZyZcHNmogjQ" name="meetingmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_dEeClUMPEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_v6aNYV17EfGZyZcHNmogjQ" name="ReminderImpl">
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_XQVEQEMQEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNYl17EfGZyZcHNmogjQ" name="idReminder">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_mUg1IEMQEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNY117EfGZyZcHNmogjQ" name="isDisabled">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_rJCUEEMQEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNZF17EfGZyZcHNmogjQ" name="hour">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_y4HfoEMQEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNZV17EfGZyZcHNmogjQ" name="minute">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_PoTBkE31EfGjp_15oaDZ5A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNZl17EfGZyZcHNmogjQ" name="remindingForId">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_kSvK4FOIEfGQ-8j_E_-Z9A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_v6aNZ117EfGZyZcHNmogjQ" name="ReminderImpl">
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_WFwukEMQEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNaF17EfGZyZcHNmogjQ" name="reminderimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_fnEsw0MQEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNaV17EfGZyZcHNmogjQ" name="email">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_tsPQ4FOIEfGQ-8j_E_-Z9A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLBehavioralFeature" id="_v6aNal17EfGZyZcHNmogjQ" name="sendsEmail">
+      <behavioralFeature xsi:type="uml:Operation" href="UltramyJago.uml#_1olcYFOIEfGQ-8j_E_-Z9A"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNa117EfGZyZcHNmogjQ" name="reminderimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_fnF64kMQEfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_v6aNbF17EfGZyZcHNmogjQ" name="LabelImpl">
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_GIjOgEMREfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNbV17EfGZyZcHNmogjQ" name="idLabel">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_Y31_MEMREfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNbl17EfGZyZcHNmogjQ" name="name">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_edjDcEMREfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNb117EfGZyZcHNmogjQ" name="description">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_hVs8UEMREfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLDomainConcept" id="_v6aNcF17EfGZyZcHNmogjQ" name="LabelImpl">
+      <classifier xsi:type="uml:Class" href="UltramyJago.uml#_HW0YcEMREfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNcV17EfGZyZcHNmogjQ" name="labelimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_K6FD0kMREfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNcl17EfGZyZcHNmogjQ" name="labelimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_K6Fq4kMREfGhIbrletiVzQ"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNc117EfGZyZcHNmogjQ" name="meetingmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_ALYoMFNGEfGdGc8aEGdmlA"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNdF17EfGZyZcHNmogjQ" name="projectimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_bMnfol1nEfG4iJ5hwOpm7w"/>
+    </domainElements>
+    <domainElements xsi:type="core:UMLStructuralFeature" id="_v6aNdV17EfGZyZcHNmogjQ" name="taskmanagementimpl">
+      <structuralFeature xsi:type="uml:Property" href="UltramyJago.uml#_FsZC9V1oEfG4iJ5hwOpm7w"/>
+    </domainElements>
+  </domainModel>
+</core:IFMLModel>
