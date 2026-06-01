@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_hQjtoEijEfGhM6nzK_aTWg">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_hQjtoEijEfGhM6nzK_aTWg">
   <interactionFlowModel id="_tIu1gEijEfGhM6nzK_aTWg">
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_tI08IEijEfGhM6nzK_aTWg" name="Home" isXOR="true">
       <annotations text="/"/>
@@ -9,6 +9,20 @@
       <viewElementEvents id="_4UqZ8F3BEfGeYpC3L6mbEw" name="MeetingManagement">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_5wPnIF3BEfGeYpC3L6mbEw">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="meeting.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_zywUAF3MEfG365NzqhRfiw">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="meeting.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_q56EAF3MEfG365NzqhRfiw" name="ProjectMeeting">
+      <annotations text="ProjectMeeting"/>
+      <viewElementEvents id="_uZE5kF3MEfG365NzqhRfiw" name="ProjectMeeting">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_3alWUF3MEfG365NzqhRfiw">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="projectmeeting.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_DjiFIF3NEfG365NzqhRfiw">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="projectmeeting.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>

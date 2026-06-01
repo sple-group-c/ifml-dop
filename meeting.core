@@ -7,6 +7,7 @@
         <annotations text="/meeting-management"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.1"/>
         <viewElementEvents id="_6uVucF2-EfGWHr40AZXkdg" name="Tambah">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_9WdnQF2-EfGWHr40AZXkdg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
@@ -23,6 +24,7 @@
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_vaWjoF28EfGWHr40AZXkdg" name="End Date" featureConcept="//@domainModel/@domainElements.25"/>
           </viewComponentParts>
         </viewElements>
+        <viewElements xsi:type="core:ViewContainer" id="_owhgPF3NEfG365NzqhRfiw"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:ViewContainer" id="_mIhWcF29EfGWHr40AZXkdg" name="Add Meeting Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="/meeting-management/add"/>
@@ -62,6 +64,7 @@
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_UdemIF2_EfGWHr40AZXkdg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
       </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ModuleDefinition" id="_l7iQI13NEfG365NzqhRfiw"/>
     </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_0ej50V27EfGWHr40AZXkdg">
