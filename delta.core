@@ -3,16 +3,22 @@
   <interactionFlowModel id="_KsDZgk6DEfGNWM88W-X_uw">
     <interactionFlowModelElements xsi:type="dop-extension:DeltaModuleDefinition" id="_UJdSoE6EEfGNWM88W-X_uw" name="EmailReminder">
       <inputPorts id="_pw2ewFObEfGrfJrQ5Xvm_A"/>
-      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_Zse2UE6EEfGNWM88W-X_uw" name="Table Email Reminder Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0">
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_Zse2UE6EEfGNWM88W-X_uw" name="Table Email Reminder Page">
         <annotations text="/emailreminder"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.2/@viewElementEvents.0/@outInteractionFlows.0"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@actionEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_nk5r8FOYEfGrfJrQ5Xvm_A" name="Add EmailReminder">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_rr9A4FOYEfGrfJrQ5Xvm_A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="dop-extension:ModifiedList" id="_TkGpYFOTEfGQ-8j_E_-Z9A" name="Table EmailReminder">
           <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_XW0GAFOTEfGQ-8j_E_-Z9A" name="List EmailReminder" uniformResourceIdentifier="call/emailreminder/list">
             <subViewComponentParts xsi:type="dop-extension:AddedVisualizationAttribute" id="_o8YOgFOTEfGQ-8j_E_-Z9A" name="email" featureConcept="//@domainModel/@domainElements.46"/>
+            <modifies href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewComponentParts.0"/>
           </viewComponentParts>
+          <modifies href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0"/>
         </viewElements>
+        <modifies href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_8rvNsFOWEfGrfJrQ5Xvm_A" name="Add Email Reminder Page" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="/emailreminder/add"/>
@@ -27,15 +33,41 @@
             </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </viewComponentParts>
+          <modifies href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0"/>
         </viewElements>
+        <modifies href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="dop-extension:ModifiedAction" id="_1OduYFOXEfGrfJrQ5Xvm_A" name="Save Emailreminder" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="POST"/>
-        <actionEvents xsi:type="dop-extension:ModifiedActionEvent" id="_tjULIFOYEfGrfJrQ5Xvm_A" name="ModifiedActionEvent">
+        <actionEvents xsi:type="dop-extension:ModifiedActionEvent" id="_tjULIFOYEfGrfJrQ5Xvm_A" name="Save Email Reminder">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_uMxX0FOYEfGrfJrQ5Xvm_A" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
           <modifies href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0"/>
         </actionEvents>
+        <modifies href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
       </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedViewContainer" id="_uhRGsF2UEfGoIKyHUqClpA" name="Email Reminder Edir Page">
+        <annotations text="/emailreminder/:id_reminder"/>
+        <viewElements xsi:type="dop-extension:ModifiedForm" id="_3yRYAF2UEfGoIKyHUqClpA" name="Email Reminder Edit Form">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_9P0B8F2YEfGoIKyHUqClpA" name="Save">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_bVwh0F2ZEfGoIKyHUqClpA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="dop-extension:ModifiedDataBinding" id="_8qaEQF2XEfGoIKyHUqClpA" name="Email Edit Fields" uniformResourceIdentifier="call/emailreminder/detail">
+            <subViewComponentParts xsi:type="dop-extension:AddedSimpleField" id="_naf7gF2YEfGoIKyHUqClpA" name="email">
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </subViewComponentParts>
+            <modifies href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewComponentParts.0"/>
+          </viewComponentParts>
+          <modifies href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0"/>
+        </viewElements>
+        <modifies href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3"/>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="dop-extension:ModifiedAction" id="_gByeAF2XEfGoIKyHUqClpA" name="Update Email Reminder" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <actionEvents xsi:type="dop-extension:ModifiedActionEvent" id="_lMCDYF2ZEfGoIKyHUqClpA">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_0vZDkF2ZEfGoIKyHUqClpA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
+        <modifies href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4"/>
+      </interactionFlowModelElement>
+      <uses href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0"/>
     </interactionFlowModelElements>
   </interactionFlowModel>
   <domainModel id="_6VaiQU6CEfGNWM88W-X_uw">

@@ -8,19 +8,31 @@
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@viewElementEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@viewElementEvents.0/@outInteractionFlows.1"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.0/@viewElementEvents.0/@outInteractionFlows.2"/>
+        <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4/@actionEvents.0/@outInteractionFlows.0"/>
         <viewElementEvents id="_dEwZYEiUEfGoJul5bIxc2g" name="Tambah Reminder">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_gt8GkEiUEfGoJul5bIxc2g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_JdAooEiSEfGoJul5bIxc2g" name="ReminderNotificationTable">
+          <viewElementEvents id="_VtLUQF2PEfGoIKyHUqClpA" name="Edit Reminder">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_ZWBDMF2PEfGoIKyHUqClpA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3">
+              <parameterBindingGroup id="_d3oNMF2PEfGoIKyHUqClpA"/>
+            </outInteractionFlows>
+          </viewElementEvents>
           <viewComponentParts xsi:type="core:DataBinding" id="_NYb8YEiSEfGoJul5bIxc2g" name="ReminderList" uniformResourceIdentifier="call/reminder/list">
+            <parameters id="_VoAV0F2OEfGoIKyHUqClpA" name="id_reminder" direction="out"/>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_X2xjgEiSEfGoJul5bIxc2g" name="hour">
               <featureConcept href="main.core#//@domainModel/@domainElements.1"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_pN1V8EiSEfGoJul5bIxc2g" name="isDisabled" featureConcept="//@domainModel/@domainElements.3"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_pN1V8EiSEfGoJul5bIxc2g" name="isDisabled">
+              <featureConcept href="main.core#//@domainModel/@domainElements.4"/>
+            </subViewComponentParts>
             <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_uMA7ME34EfGjp_15oaDZ5A" name="minute">
               <featureConcept href="main.core#//@domainModel/@domainElements.2"/>
             </subViewComponentParts>
-            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_zk65kE34EfGjp_15oaDZ5A" name="Reminder Id" featureConcept="//@domainModel/@domainElements.2"/>
+            <subViewComponentParts xsi:type="core:VisualizationAttribute" id="_zk65kE34EfGjp_15oaDZ5A" name="Reminder Id">
+              <featureConcept href="main.core#//@domainModel/@domainElements.3"/>
+            </subViewComponentParts>
           </viewComponentParts>
         </viewElements>
       </interactionFlowModelElement>
@@ -31,18 +43,21 @@
             <outInteractionFlows xsi:type="core:NavigationFlow" id="_VEW0UEiUEfGoJul5bIxc2g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2"/>
           </viewElementEvents>
           <viewComponentParts xsi:type="ext:SimpleField" id="_EAjwIE36EfGjp_15oaDZ5A" name="Hour">
+            <annotations text="Required"/>
             <subViewComponentParts xsi:type="ext:IFMLSlot" id="_M0UEwE36EfGjp_15oaDZ5A" name="Hour">
               <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
             </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
           </viewComponentParts>
           <viewComponentParts xsi:type="ext:SimpleField" id="_ZdB4wE36EfGjp_15oaDZ5A" name="Minute">
+            <annotations text="Required"/>
             <subViewComponentParts xsi:type="ext:IFMLSlot" id="_w1yH4E36EfGjp_15oaDZ5A" name="Minute">
               <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
             </subViewComponentParts>
             <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
           </viewComponentParts>
           <viewComponentParts xsi:type="core:DataBinding" id="_ryXPEFOREfGQ-8j_E_-Z9A" name="Task List" uniformResourceIdentifier="call/taskmanagement/list">
+            <annotations text="Required"/>
             <subViewComponentParts xsi:type="ext:SelectionField" id="_yoTzMFOREfGQ-8j_E_-Z9A" name="remindingForId">
               <subViewComponentParts xsi:type="ext:IFMLSlot" id="_N9BhkFOSEfGQ-8j_E_-Z9A" name="remindingForId">
                 <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
@@ -54,8 +69,46 @@
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:IFMLAction" id="_NtzdgEiUEfGoJul5bIxc2g" name="Save Reminder" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="POST"/>
-        <actionEvents id="_0KNigE35EfGjp_15oaDZ5A">
+        <actionEvents id="_0KNigE35EfGjp_15oaDZ5A" name="Save reminder event">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_WkPSsEiUEfGoJul5bIxc2g" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </actionEvents>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:ViewContainer" id="_gp9SQF2MEfGoIKyHUqClpA" name="Edit Reminder" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="/reminder/:id_reminder"/>
+        <viewElements xsi:type="ext:Form" id="_p3uCUF2MEfGoIKyHUqClpA" name="Edit Reminder Form">
+          <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_EZFrYF2REfGoIKyHUqClpA" name="Save">
+            <outInteractionFlows xsi:type="core:NavigationFlow" id="_mXkjEF2REfGoIKyHUqClpA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.4"/>
+          </viewElementEvents>
+          <viewComponentParts xsi:type="core:DataBinding" id="_3OyKEF2MEfGoIKyHUqClpA" name="Edit Reminder Fields" uniformResourceIdentifier="call/reminder/detail">
+            <parameters id="_ihNc4F2OEfGoIKyHUqClpA" name="id_reminder"/>
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_OdeeQF2NEfGoIKyHUqClpA" name="hour">
+              <annotations text="Required"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_SX5FYF2NEfGoIKyHUqClpA" name="hour">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="ext:SimpleField" id="_exuv4F2NEfGoIKyHUqClpA" name="minute">
+              <annotations text="Required"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_ladXYF2NEfGoIKyHUqClpA" name="minute">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </subViewComponentParts>
+            <subViewComponentParts xsi:type="ext:SelectionField" id="_wN_LYF2NEfGoIKyHUqClpA" name="isDisabled">
+              <annotations text="Required"/>
+              <subViewComponentParts xsi:type="ext:IFMLSlot" id="_07bK4F2NEfGoIKyHUqClpA" name="Slot">
+                <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+              </subViewComponentParts>
+              <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+            </subViewComponentParts>
+          </viewComponentParts>
+        </viewElements>
+      </interactionFlowModelElement>
+      <interactionFlowModelElement xsi:type="core:IFMLAction" id="_SYsZ0F2REfGoIKyHUqClpA" name="Update Reminder" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.3/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+        <annotations text="POST"/>
+        <actionEvents id="_p2xN0F2REfGoIKyHUqClpA" name="Update Reminder event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_vuBVEF2REfGoIKyHUqClpA" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
       </interactionFlowModelElement>
     </interactionFlowModelElements>

@@ -10,6 +10,9 @@
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_1OzkUE3_EfGURu9Ap43JdQ">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_r7gEgF13EfGoIKyHUqClpA">
+          <targetInteractionFlowElement xsi:type="core:ViewContainer" href="reminder.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_XRXzkEiWEfGoJul5bIxc2g" name="Home" isXOR="true">
@@ -18,6 +21,9 @@
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_OT6BcFObEfGrfJrQ5Xvm_A" name="Email Reminder">
       <annotations text="EmailReminder"/>
       <viewElementEvents xsi:type="dop-extension:ModifiedViewElementEvent" id="_4wcDgFObEfGrfJrQ5Xvm_A" name="EmailReminder" modifies="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElementEvents.0">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_wJOpMF13EfGoIKyHUqClpA">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="delta.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
         <viewElement href="delta.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
       </viewElementEvents>
     </interactionFlowModelElements>
