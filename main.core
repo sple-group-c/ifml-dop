@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_3E5JMEiOEfGg0fy8ktMBQg">
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:dop-extension="http://amanah.cs.ui.ac.id/ifml/dop" xmlns:ext="http://www.omg.org/spec/20130218/ext" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" id="_3E5JMEiOEfGg0fy8ktMBQg">
   <interactionFlowModel id="_A9JnwEiPEfGg0fy8ktMBQg">
     <interactionFlowModelElements xsi:type="core:ViewContainer" id="_A9Lc8EiPEfGg0fy8ktMBQg" name="Home" isXOR="true">
       <annotations text="/"/>
     </interactionFlowModelElements>
     <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_l_fSAEiPEfGg0fy8ktMBQg" name="Label">
       <annotations text="Label"/>
-      <viewElementEvents id="_ObY5EEiQEfGg0fy8ktMBQg" name="Tambah Label">
+      <viewElementEvents id="_ObY5EEiQEfGg0fy8ktMBQg" name="Label">
         <outInteractionFlows xsi:type="core:NavigationFlow" id="_V9TyYEiQEfGg0fy8ktMBQg">
           <targetInteractionFlowElement xsi:type="core:ViewContainer" href="label.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
+        </outInteractionFlows>
+      </viewElementEvents>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="ext:IFMLMenu" id="_iBJKYF4KEfGlAbCz2XZjWQ" name="LabelDelta">
+      <annotations text="LabelDelta"/>
+      <viewElementEvents id="_4tltIF4KEfGlAbCz2XZjWQ" name="LabelDelta">
+        <outInteractionFlows xsi:type="core:NavigationFlow" id="_fhuk0F4OEfGlAbCz2XZjWQ">
+          <targetInteractionFlowElement xsi:type="dop-extension:ModifiedViewContainer" href="labeldelta.core#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </outInteractionFlows>
       </viewElementEvents>
     </interactionFlowModelElements>

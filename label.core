@@ -8,7 +8,7 @@
         <inInteractionFlows xsi:type="core:NavigationFlow" href="#//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.2/@actionEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.0"/>
         <inInteractionFlows xsi:type="core:NavigationFlow" href="main.core#//@interactionFlowModel/@interactionFlowModelElements.1/@viewElementEvents.0/@outInteractionFlows.1"/>
-        <viewElementEvents id="_Olce4EiOEfGg0fy8ktMBQg" name="ViewElement Event">
+        <viewElementEvents id="_Olce4EiOEfGg0fy8ktMBQg" name="Tambah Label">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_Rv-hMEiOEfGg0fy8ktMBQg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1"/>
         </viewElementEvents>
         <viewElements xsi:type="ext:List" id="_zu0soEiLEfGg0fy8ktMBQg" name="TableLabel">
@@ -42,7 +42,7 @@
       </interactionFlowModelElement>
       <interactionFlowModelElement xsi:type="core:IFMLAction" id="_e0XaAEiNEfGg0fy8ktMBQg" name="Save Label" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
         <annotations text="POST"/>
-        <actionEvents id="_CRh2MEiOEfGg0fy8ktMBQg">
+        <actionEvents id="_CRh2MEiOEfGg0fy8ktMBQg" name="Save">
           <outInteractionFlows xsi:type="core:NavigationFlow" id="_KURkoEiOEfGg0fy8ktMBQg" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0/@interactionFlowModelElement.0"/>
         </actionEvents>
       </interactionFlowModelElement>
